@@ -1,2 +1,2 @@
 # theNigerianObserver Repo
- YThis is a Newspaper Website
+ This is a Newspaper Website
