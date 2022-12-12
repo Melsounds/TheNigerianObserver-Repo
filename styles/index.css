@@ -819,7 +819,7 @@ margin-top: 10px;
     margin-left: -50px;
     right: 0;
     margin-top: 0px;
-    width: 1515px;
+    width: 107%;
     height: 664px;
     margin-right: 0px;
 }
@@ -910,12 +910,12 @@ a{
 }
 .grid3{
     z-index: 1;
-    margin-left: -20px;
+    /*margin-left: -20px;*/
 }
 .grid4{
     z-index: 1;
     padding: 0 20px;
-    margin-left: -70px;
+    /*margin-left: -70px;*/
 }
 .grid4 .text{
     width: 241px;
@@ -925,6 +925,7 @@ a{
     line-height: 21px;
     margin-bottom: 20px;
     font-size: 15px;
+    
 }
 input{
     width: 300px;
@@ -952,6 +953,7 @@ input{
     font-weight: 600;
     font-size: 14px;
     line-height: 19px;
+
 }
 .grid5 ul li{
     margin: -10px 0;
