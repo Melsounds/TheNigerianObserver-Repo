@@ -8,7 +8,7 @@
     }
     nav{
         background: #fff;
-        width: 415px;
+        width: 100%;
     }
     .remove{
         display: none;
@@ -46,7 +46,7 @@ nav ul{
     padding: 0 218.5px;
     height: 100px;
     margin-right: -10px;
-    width: 20px;
+    width: 10%;
 }
 nav li{
     display: flex;
@@ -57,7 +57,7 @@ nav li{
     border-top: none;
     border-bottom: none;
     border-left: none;
-    height: 0px;
+    height: 30px;
     width: 100px;
     margin-right: -20px;
 }
