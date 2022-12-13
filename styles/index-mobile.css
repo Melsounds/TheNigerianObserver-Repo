@@ -57,7 +57,7 @@ nav li{
     border-top: none;
     border-bottom: none;
     border-left: none;
-    height: 0;
+    height: 30px;
     width: 100px;
     margin-right: -20px;
 }
