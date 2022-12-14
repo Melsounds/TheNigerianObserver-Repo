@@ -26,6 +26,9 @@
         margin-top: -55px;
         margin-left: 40px;
     }
+    .vec{
+        margin-left: 10px;
+    }
 nav ul{
     margin-top: 150px;
     margin-bottom: 50px;
@@ -47,6 +50,7 @@ nav li{
     border-bottom: none;
     border-left: none;
     height: 0px;
+    width: 70px;
 }
 .a2{
     border-right: none;
@@ -60,10 +64,11 @@ nav li{
 
 nav li a{
     font-size: 12px;
-    margin-left: 20px;
+    margin-left: 0px;
     font-weight: 600;
     width: 67px;
     margin-right: -10px;
+    text-align: center;
 }
 .active{
     display: none;
