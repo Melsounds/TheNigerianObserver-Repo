@@ -1,8 +1,4 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
+
 /*Navbar* rectangle 55*/
 nav{
     display: flex;
@@ -28,7 +24,7 @@ nav{
     display: none;
 }
 .logo img{
-    width: 220px;
+    width: 100%;
     height: 109.01px;
     top: 33.99px;
     left: 17px;
@@ -39,9 +35,10 @@ nav ul{
     align-items: center;
     justify-content: center;
     list-style: none;
-    width: 100%;
+    width: 80%;
     height: 15px;
-    margin-left: -150px;
+    margin-left: 3%;
+    margin-right: 3%;
     top: 63px;
     font-style: normal;
     font-weight: 700;
@@ -54,11 +51,10 @@ nav li{
     /*border: 1px solid black;*/
 }
 nav  a{
-    width: 46px;
     height: 15px;
     text-decoration: none;
     color: #000;
-    margin-left: 50px;
+    margin-left: 0px;
     position: relative;
     text-align: center;
     margin-left: auto;
@@ -544,12 +540,15 @@ main{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     margin-top: -100px;
+    margin-left: -7.8%;
+    width: 98.8vw;
+    height: 500px;
 }
 .environment-title{
     position: relative;
     width: 188.42px;
     height: 41.55px;
-    left: -67px;
+    left: 0px;
     top: 0px;
     background: #fff;
     box-shadow: 0px 4px 7px rgba(0, 0, 0, 0.07);
@@ -610,7 +609,7 @@ main{
     position: relative;
     width: 188.42px;
     height: 41.55px;
-    left: 555px;
+    left: 559px;
     top: 0px;
     background: #fff;
     box-shadow: 0px 4px 7px rgba(0, 0, 0, 0.07);
@@ -658,7 +657,7 @@ margin-top: 10px;
     margin-top: 250px;
 }
 .observercartoon-img span p{
-    width: 155px;
+    width: 103%;
     height: 14px;
     font-family: 'Lato';
     font-weight: 400;
@@ -668,12 +667,14 @@ margin-top: 10px;
 }
 
 .footer{
-    margin-left: -71px;
+    margin-left: -7.8%;
     right: 0;
-    margin-top: -50px;
-    width: 1515px;
+    margin-top: 20px;
+    width: 151.5%;
     height: 672px;
     margin-right: 0px;
+    padding: 0 .05%;
+    overflow: hidden;
 }
 .footer-img1{
     width: 100%;
@@ -688,15 +689,16 @@ margin-top: 10px;
     grid-template-columns: repeat(5, 1fr);
     margin-top: -570px;
     color: #fff;
-    margin-left: 40px;
+    margin-left: 5%;
+    padding: 0 4%;
 }
 .grid1{
     z-index: 1;
-    margin-left: -95px;
+    margin-left: -40.7%;
     margin-top: -50px;
-    padding: 0;
+    padding: 0 10%;
     height: 500px;
-    width: 350px;
+    width: 90%;
 }
 .grid1 img{
     width: 216px;
@@ -739,10 +741,11 @@ margin-top: 10px;
 }
 .grid2{
     z-index: 1;
-    margin-left: -100px;
+    margin-left: -48%;
     margin-top: -50px;
-    width: 250px;
+    width: 100%;
     height: 500px;
+    padding: 0 20%;
 }
 .grid-title{
     width: 195px;
@@ -757,6 +760,8 @@ margin-top: 10px;
 }
 ul{
     list-style: none;
+    width: 100%;
+    margin-left: -20%;
 }
 li{
     padding: 21px 0;
@@ -770,20 +775,22 @@ a{
 }
 .grid3{
     z-index: 1;
-    margin-left: 30px;
+    margin-left: -8%;
     margin-top: -50px;
-    width: 250px;
+    width: 96%;
     height: 500px;
+    padding: 0 7%;
 }
 .grid4{
     z-index: 1;
-    padding: 0 20px;
-    margin-left: 0px;
+    padding: 0 5%;
+    margin-left: 2%;
     margin-top: -50px;
     height: 500px;
+    width: 150%;
 }
 .grid4 .text{
-    width: 241px;
+    width: 100%;
     height: 47px;
     color: #fff;
     padding-top: 15px;
@@ -792,7 +799,7 @@ a{
     font-size: 15px;
 }
 input{
-    width: 300px;
+    width:85%;
     padding: 20px;
     margin-top:20px;
     color: #fff;
@@ -800,7 +807,7 @@ input{
     outline: none
 }
 .submit-btn{
-    width: 300px;
+    width: 90%;
     background: #dd4b24;
     border: none;
     font-family: 'Righteous';
@@ -813,31 +820,38 @@ input{
 }
 .grid5{
     z-index: 1;
-    padding: 0 20px;
+    padding: 0 20%;
     font-weight: 600;
     font-size: 14px;
-    width: 250px;
+    width: 100%;
     height: 500px;
     margin-top: -50px;
-
+    margin-left: 62%;
 }
-.grid5 ul li{
+.grid5 ul{
     margin: -10px 0;
+    width: 100%;
 }
-
+.grid5 li{
+    margin-left: -30%;
+}
+.copyright{
+    margin-top: 20px;
+    margin-left: -170%;
+    height: 95px;
+}
 .copyright p{
-    width: 380px;
-    height: 17px;
-    left: 59px;
+    width: 100%;
+    height: 100%;
+    margin-left: 59%;
     font-size: 14px;
-    margin-top: 80px;
     font-family: 'lato';
+    margin-top: 50px;
 }
  .footer-social-icons{
     margin-left: 900px;
     display: flex;
-    margin-top: -30px;
-    border: 1px solid red;
+    margin-top: -50px;
     width: 310px;
 }
 .footer-social-icon{
