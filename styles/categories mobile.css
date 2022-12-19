@@ -5,52 +5,60 @@
     }
     nav{
         background: #fff;
+        width: 100%;
     }
     .remove{
         display: none;
     }
     .logo{
-        width: 107px;
+        width: 50%;
         height: 37px;
-        margin-top: -50px;
+        margin-top: -80px;
         margin-bottom: 70px;
-        margin-left:-50px ;
+        margin-left: -100px;
         padding-left: 40px;
     }
     .search-icon{
         display: block;
         margin-top: -50px;
-        margin-left: -150px;
+        margin-left: -100px;
     }
     .menu-icon{
         display: block;
         margin-top: -55px;
-        margin-left: 100px;
+        margin-left: 40px;
     }
+    .vec{
+        display: block;
+        margin-left: 0px;
+    }
+    
 nav ul{
-    margin-top: 150px;
+    margin-top: 190px;
     margin-bottom: 50px;
-    margin-left: -90px;
+    margin-left: -46%;
     display: flex;
     align-items: center;
     justify-content: center;
     background: #d6d6d6;
-    padding: 0 218.5px;
+    padding: 0;
     height: 100px;
-    width: 0;
     margin-right: -10px;
+    width: 100%;
 }
 nav li{
     display: flex;
     align-items: center;
     justify-content: center;
-    padding-right: 8px;
+    padding-right: 0px;
     border: 1px solid #d924dd;
     border-top: none;
     border-bottom: none;
     border-left: none;
     height: 0px;
-    width: 100px;
+    width: 20%;
+    margin-right: -20px;
+    
 }
 .a2{
     border-right: none;
@@ -63,9 +71,9 @@ nav li{
 }
 nav li a{
     font-size: 12px;
-    margin-left: 0px;
+    margin-left: 30px;
     font-weight: 600;
-    width: 57px;
+    
 }
 .active{
     display: none;
@@ -85,7 +93,6 @@ main{
     width: 111.89px;
     height: 24.68px;
     margin-left: 150px; 
-    border: 1px solid black; 
 }
 .politics-title::after{
     content: '';
