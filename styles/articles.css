@@ -20,7 +20,7 @@ nav{
     padding-left: 20px;
 }
 .logo img{
-    width: 206px;
+    width: 100%;
     height: 79.01px;
     top: 33.99px;
     left: 17px;
@@ -31,22 +31,26 @@ nav ul{
     align-items: center;
     justify-content: center;
     list-style: none;
-    width: 100%;
+    width: 80%;
     height: 15px;
-    margin-left: -110px;
+    margin-left: 3%;
     top: 63px;
     font-style: normal;
     font-weight: 700;
 }
 nav li{
-    font-size: 14px;
+    
+    padding: 0; 
+    height: 100%; 
+    width: 100%;
 }
 nav li a{
-    width: 46px;
+    width: 100%;
     height: 15px;
+    font-size: 14px;
     text-decoration: none;
     color: #000;
-    margin-left: 50px;
+    margin-left: 20%;
     position: relative;
 }
  a:is(:link, :active, :visited).active{
@@ -65,7 +69,7 @@ nav li a:hover::after{
     width: 100%;
 }
 .vector{
-    margin-left: 2px;
+    margin-left: 0px;
 }
 .search-icon{
     display: none;
