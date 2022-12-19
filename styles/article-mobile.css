@@ -1,19 +1,22 @@
 @media screen and (max-width:600px){
     body{
         background: #f8f1f1;
+        margin: 0;
+        padding: 0;
     }
     nav{
         background: #f8f1f1;
+        width: 100%;
     }
     .remove{
         display: none;
     }
     .logo{
-        width: 107px;
+        width: 50%;
         height: 37px;
         margin-top: -30px;
         margin-bottom: 70px;
-        margin-left: -50px ;
+        margin-left: -100px ;
         padding-left: 40px;
     }
     .search-icon{
@@ -32,13 +35,15 @@
 nav ul{
     margin-top: 150px;
     margin-bottom: 50px;
-    margin-left: -110px;
+    margin-left: -46%;
     display: flex;
     align-items: center;
     justify-content: center;
     background: #d9d9d9;
-    padding: 0 218.5px;
+    padding: 0;
     height: 100px;
+    width: 107%;
+    margin-right: -10%;
 }
 nav li{
     display: flex;
@@ -49,7 +54,7 @@ nav li{
     border-top: none;
     border-bottom: none;
     border-left: none;
-    height: 0px;
+    height: 50px;
     width: 70px;
 }
 .a2{
