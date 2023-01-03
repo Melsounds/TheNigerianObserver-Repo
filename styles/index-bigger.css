@@ -206,7 +206,7 @@
     .breaking-news-bar{
         width: 95%;
         height: 88px;
-        margin-top: -300px;
+        margin-top: -800px;
         margin-left: 70px;
     }
     .breaking-news-bar-title{
@@ -235,17 +235,407 @@
     #health{
         position: relative;
         margin-top: 0px;
-        width: 250%;
+        width: 125%;
         margin-left: -224px;
-        height: 585px;
-        border: 1px solid black;
+        height: 1050px;
+        
+    }
+    .health-title{
+    position: absolute;
+        width: 160px;
+        height: 40px;
+        left: 220px;
+        top: -60px;
+        
+}
+.health-title::after{
+    content: '';
+    width: 100%;
+    height: 40px;
+    background-color: #dc4b25;
+    z-index: -1;
+    position: absolute;
+    left: 10px;
+    top: 20%;
+}
+.health-title h1{
+    font-size: 20px;
+}
+
+    .health-contents{
+        grid-template-columns: 1fr;
+        height: 800px;
+        width: 100%;
+        margin-top: 50px;
+    }
+    .health-content{  
+        width: 95%;
+        height: 130px;
+    }
+    .health-content img{
+        width: 40%;
+        height: 100px;
+        margin-left: 200px; 
+        margin-top: 0px;  
+    }
+    
+    .health-content-text{
+        font-size: 17px;
+        font-weight: 400;
+        line-height: 21.37px;
+        margin-left: 30px;
+        height: 58px;
+        width: 100%;
+        margin-top: 50px;
+
+    }
+    .health-btn{
+        display: block;
+        margin-left: 900px;
+        margin-top: -30px;
+        width: 100px;
+        padding: 10px;
+        font-size: 10px;
+        color: #dc4b25;
+        line-height: 12.57px;
+        font-weight: 400;
+        background: #d9d9d9;
+        cursor: pointer
     }
     
     #business{
         position: relative;
-        top: 500px;
-        width: 1070px;
-        height: 305px;
+        top: 950px;
+        width: 100%;
+        height: 720px;
+        margin-left: -10px;
     }
+    .business-title{
+        width: 160px;
+        height: 40px;
+        left: 0px;
+        top: 0px;
+}
+.business-title::after{
+    height: 40px;
+}
+
+    .business-contents{
+        grid-template-columns: 1fr;
+        margin-left: 0px;
+        margin-top: 50px;
+        height: 650px;
+        width: 95%;
+        padding: 0;
+    }
+    .business-content{
+        width: 90%;
+        margin-left: -20px;
+        height: 105px;
+        margin-top: 30px;
+    }
+    .business-content img{
+        width: 50%;
+        height: 105px;
+    }
+    #editorials{
+        margin-top: 1200px;
+        margin-left: -10px;
+        width: 100%;
+        height: 750px;
+    }
+    .editorials-title{
+        position: absolute;
+        width: 160px;
+        height: 40px;
+        left: 10px;
+        top: 10px;
+    }
+    .editorials-title::after{
+        height: 40px;
+    }
+    .editorials-title h1{
+        font-size: 20px;
+    }
+    .editorials-contents{
+        grid-template-columns:1fr; 
+        margin-top: 20px; 
+        width: 95%;
+        margin-left: 0px;
+        height: 820px;
+    }
+    .editorials-content{
+        top: 60px;
+        width:95%;
+        margin-top: 0px;
+        height: 110px;
+        margin-left: 0px;
+    }
+    .editorials-content img{
+        width: 50%;
+        height: 105px;
+    }
+    .editorials-content-text{
+        margin-left: 15px;
+        margin-top: 0px;
+        font-weight: normal;
+        padding: 0;
+        width: 100%;
+    }
+    .editorial-btn{
+        display: block;
+        margin-left: 778px;
+        margin-top:50px;
+        width: 81px;
+        height: 21px;
+        font-size: 10px;
+        color: #000;
+        line-height: 12.57px;
+        font-weight: 400;
+        background: #ffe500;
+        padding: 5px;
+        border-radius: 7px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    #aviation{
+        margin-top: 100px;
+        height: 850px;
+    }
+    .aviation-title{
+        position: absolute;
+        width: 188.42px;
+        height: 41.55px;
+        left: 0px;
+        top: 0px;
+        background: #fff;
+        box-shadow: 0px 4px 7px rgba(0, 0, 0, 0.07);
+        bottom: -100px;
+    }
+    .aviation-title::after{
+        content: '';
+        width: 100%;
+        height: 41.55px;
+        background-color: #d924dd;
+        z-index: -1;
+        position: absolute;
+        left: 10px;
+        top: 20%;
+    }
+    .aviation-title h1{
+        color: #dc4b25;
+        font-size: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 10px;
+    }
+    .aviation-contents{
+        display: grid;
+        grid-template-columns: 1fr;
+        width: 100%;
+        height: 850px;
+    }
+    .aviation-content{
+        top: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+        margin-left: 0px;
+        margin-top: 20px;
+        margin-right: -30px;
+        width: 100%;
+    }
+    .aviation-content-text{
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 16.34px;
+        margin-left: 20px;
+        height: 58px;
+        width: 100%;
+        font-weight: 500;
+        font-family: 'lato', serif;
+    }
+    .aviation-content img{
+        width: 50%;
+        height: 105px;
+    }
+    #environment-observationcartoon{
+        grid-template-columns: 1fr;
+        margin-top: 50px;
+        width: 100%;
+        margin-left: 0px;
+    }
+    .environment-container{
+        width: 100%;
+    
+    }
+    .environment-title{
+        margin-left: 50px;
+    }
+    .environment-img {
+        margin-top:20px;
+        margin-left: 20px;
+      width: 90%;
+      height: 380px;
+      padding: 0;
+    }
+    .environment-img img{
+        width: 100%;
+        height: 380px;
+    }
+    .observercartoon-img{
+        margin-top: 50px;
+        margin-left: 20px;
+        width: 90%;
+      
+    }
+    .observercartoon-img img{
+        width: 100%;
+    }
+    .footer{
+        width: 108%;
+        margin-left: -5%;
+        height: 1800px;
+        margin-top: -100px;
+        background: #000;
+        
+    }
+    .footer-img1{
+        display: none;
+    }
+    .footer-img2{
+        display: none;
+    }
+    .footer-nav{
+        grid-template-columns: 1fr;
+        margin-top: -1750px;
+        width: 100%;
+        padding: 0 60px;
+    }
+    .grid1 img{
+        margin-left: 0px;
+    }
+    .grid1 p{
+        width: 100%;
+        font-size: 20px;
+        margin-left: 0px;
+    }
+    .icons{
+        margin-top: -20px;
+        margin-left: 0px;
+        width: 160%;
+
+    }
+    .phone{
+        margin-left: -1350px;
+    }
+    
+    .icons p{
+        font-size: 15px;
+        margin-left: 50px;
+    }
+    .grid2{
+        margin-top: 20px;
+        margin-left: 0px;
+    }
+    
+    .grid2 li{
+        padding: 10px 0;
+        top: 90px;
+    }
+    .grid2 li a{
+        text-transform: uppercase;
+        text-align: center;
+        margin-left: 0px;
+        width: 100%;
+        font-size: 15px;
+    }
+    
+    .grid2 a:hover{
+        color: #dd4b24;
+    }
+    .grid-title{
+        width: 20%;
+        margin-bottom: 10px;
+    }
+    .grid3{
+        margin-left: 0px;
+        margin-top: 40px;
+    }
+    .grid3 li{
+        padding: 10px 0;
+        text-transform: uppercase;
+    }
+    .grid3 a{
+        font-size: 15px;
+    }
+    .grid3 a:hover{
+        color: #dd4b24;
+    }
+    .grid4{
+        margin-left: -15px;
+        width: 100%;
+        margin-top: 30px;
+        height: 350px;
+        
+    }
+    input{
+        width: 80%;
+        padding: 20px;
+        margin-top:10px;
+        margin-left: 0;
+    }
+    .grid4 .text{
+        font-size: 17px;
+        width: 98.8%;
+        padding: 0;
+        font-weight: bold;
+        height: 20px;
+        margin-left: -0px;
+        margin-top: 10px;
+        
+    }
+    
+    .submit-btn{
+        width: 85%;
+        height: 70px;
+    }
+    .grid5{
+        z-index: 1;
+        padding: 0% 4%;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 19px;
+        width: 90%;
+        margin-left: -20px;
+        margin-top: -20px;
+    }
+    .grid5 .grid-title{
+        margin-left: -15px;
+    }
+    .grid5 ul li{
+        margin: -10px -15px;
+    }
+    .copyright{
+        margin-left: -295px;
+        width: 98%;
+        margin-top: 30px;
+        text-align: center;
+        font-size: 65px;
+    }
+    .footer-social-icons{
+        margin-left: 400px;
+        margin-top: -30px;
+        width: 150%;
+    }
+    .footer-social-icon{
+        width: 30px;
+        height: 30px;
+        margin-left: 30px;
+    }
+    
     
 }
