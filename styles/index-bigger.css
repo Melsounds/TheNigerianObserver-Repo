@@ -101,7 +101,9 @@
 .center{
     display: none;
 }
-
+.right{
+    margin-top: 50px;
+}
 .right-content{
     width: 100%;
     margin-left: 0px;
@@ -128,7 +130,7 @@
     content: '';
     width: 188.42px;
     height: 41.55px;
-    top: 1270px;
+    top: 1320px;
     left: 40px;
     background: #ecff0d;
     position: absolute;
