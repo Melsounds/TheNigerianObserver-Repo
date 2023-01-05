@@ -180,7 +180,7 @@ span{
     width: 100%;
 }
 /*politics container-mobile*/
-#politics{
+.politics{
     position: relative;
     margin-top: -80px;
     width: 90%;
