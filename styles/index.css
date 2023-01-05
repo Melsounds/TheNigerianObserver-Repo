@@ -261,7 +261,7 @@ nav li a:hover::after{
 }
 
 /*politics container*/
-#politics{
+.politics{
     margin-top: 50px;
     width: 1070px;
 }
