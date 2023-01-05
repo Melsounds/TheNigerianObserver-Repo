@@ -54,7 +54,7 @@ nav ul{
     padding: 0 218.5px;
     height: 100px;
     margin-right: -10px;
-    width: 75.5%;
+    width: 65%;
 }
 nav li{
     display: flex;
@@ -125,6 +125,7 @@ nav li a{
     width: 100%;
 margin-left: 50px;
 }
+
 .right-content{
     width: 100%;
     margin-left: 0px;
@@ -137,7 +138,7 @@ margin-left: 50px;
 }
 
 /*politics container-mobile*/
-#politics{
+.politics{
     position: relative;
     margin-top: -450px;
     width: 200%;
