@@ -7,6 +7,8 @@
 
     <link rel="stylesheet" href="styles/categories.css">
     <link rel="stylesheet" href="styles/categories mobile.css">
+    <link rel="stylesheet" href="styles/categories-bigger.css">
+    <link rel="stylesheet" href="styles/categories-tab.css">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -27,7 +29,7 @@
         </div>
     
         <ul>
-            <li class="remove "><a href="/index.html" class="active">News<img src="assests/Vector nav.png" class="vector"></a></li>
+            <li class = "remove"><a href="/index.html" class="active">News<img src="assests/Vector nav.png" class="vector"></a></li>
             <li><a href="#sports">Sports</a></li>
             <li><a href=".opinions">Opinions</a></li>
             <li><a href="#business">Business</a></li>
@@ -36,16 +38,18 @@
             <li class="remove"><a href="religion">Religion</a></li>
             <li class="remove"><a href="#editorials">Editorial</a></li>
             <li class="a2"><a href="#aviation">Aviation</a><img src="assests/Vec (1).png" class="vec"></li>
-            <li class="remove"><a href=".environment">Environment</a></li>
-            <li class="remove"><a href=".observercartoon" style="margin-left: 20%">ObserverCartoon</a></li>
+            <li class="remove2"><a href=".environment">Environment</a></li>
+            <li class="remove2"><a href=".observercartoon" style="margin-left: 20%">ObserverCartoon</a></li>
         </ul>
-        <div class="search-icon">
-         <img src="assests/search.png">
-        </div>
-
-        <div class="menu-icon">
-            <img src="assests/menu.png">
-           </div>
+        <div class="nav-icons">
+            <div class="search-icon">
+                <img src="assests/search.png" class="menulogo">
+               </div>
+       
+               <div class="menu-icon">
+                   <img src="assests/menu.png"class="menulogo">
+                  </div>
+            </div>
     </nav>
     <div class="header">
         <div class="header-title">
@@ -55,9 +59,11 @@
     </div>
     <main>
         <div class="main-left">
+            <div class="politics-left-container">
             <div class="politics-title">
                 <h1>Politics</h1>
             </div>
+            
             <div class="cat-img-cont">
                 <img src="assests/Rectangle 134.png" alt="">
             </div>
@@ -89,6 +95,7 @@
                 </p>
                 
             </div>
+        </div>
             <div class="main-left-contents">
                 <div class="main-left-content">
                     <div class="main-left-content-text">
@@ -379,8 +386,9 @@
                     </div>
                 </div>
             </div>
+          </div> 
+        
         <div class="main-right">
-            
             <div class="politics-container">
                 <div class="main-right-title">
                     <h1>Politics</h1>
@@ -412,6 +420,7 @@
             <!--------------Latest News--------------->
         <div class="latest-news">
             <p>Latest News</p>
+            <div class="latest-news-contents">
             <div class="latest-news-content">
                 <p>
                     2023 Elections: Army tasks personnel on professional conduct
@@ -472,7 +481,7 @@
                     MSMEs, `lifewire` of every growing economy - Minister
                 </p>
             </div>
-
+        </div>
              <!----------Opinions container------------>
        <div class ="opinions-container">
         <p>Opinions</p>
@@ -519,10 +528,17 @@
                 2023 Elections: Army tasks personnel on professional conduct
             </p>
         </div>
+        <div class="opinions-content">
+            <img src="assests/Rectangle 121.png" alt="">
+            <p>
+                2023 Elections: Army tasks personnel on professional conduct
+            </p>
+        </div>
     </div>
 <!--------------Editor's pick------------------>
     <div class ="editorpick-container">
     <p>Editor's pick</p>
+    <div class="editorpick-contents">
         <div class="editorpick-content">
             <p>
                 2023 Elections: Army tasks personnel on professional conduct
@@ -559,9 +575,11 @@
             </p>
         </div>
     </div>
+    </div>
        </div>
         </div>
         </div>
+        </main>
         <!---------environment and observation cartoon--------->
         <div id ="environment-observationcartoon">
             <div class="environment-container">
@@ -582,7 +600,7 @@
         </div>
         <div class="observercartoon-container">
             <div class="observercartoon-title">
-                <h1>Observation Cartoon</h1>
+                <h1>ObservationCartoon</h1>
             </div>
             <div class="observercartoon-img">
                 <img src="assests/Rectangle 127.png" alt="">
@@ -596,10 +614,11 @@
             </div>
         </div>
     </div>
+
     <div class="footer">
         <img src="assests/Rectangle 128.png" class="footer-img1">
         <img src="assests/Rectangle 129.png" class="footer-img2">
-    </div>
+    
     <div class="footer-nav">
         <div class="grid1">
             <img src="assests/logo.png" alt="">
@@ -704,12 +723,14 @@
                 </li>
             </ul>
         </div>
+    </div>
+    </div>
         <div class="copyright">
             <p>
                 ©2022 The Nigerian Observer – All Right Reserved. 
             </p>
         </div>    
-    </div>
+    
     <div class="footer-social-icons">
         <div class="footer-social-icon">
             <img src="assests/facebook2.png" alt="">
@@ -730,7 +751,5 @@
             <img src="assests/youtube2.png" alt="">
         </div>
     </div>
-    
-    </main>
 </body>
 </html>
