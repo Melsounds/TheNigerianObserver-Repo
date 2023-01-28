@@ -38,37 +38,34 @@
     .remove2{
         display: none;
     }
-    .vec{
-        display: block;
-        margin-left: -20%;
-    }
     
 nav ul{
     margin-top: 190px;
     margin-bottom: 50px;
-    margin-left: -50%;
+    margin-left: -30%;
     display: flex;
     align-items: center;
     justify-content: center;
     background: #d6d6d6;
-    padding: 0 218.5px;
-    height: 100px;
+    padding: 0 35%;
+    height: 80px;
     margin-right: -10px;
-    width: 65%;
+    width: 48%;
 }
 nav li{
     display: flex;
     align-items: center;
     justify-content: center;
-    padding-right: 0px;
     border: 2px solid #dc4b25;
     border-top: none;
     border-bottom: none;
     border-left: none;
     height: 30px;
-    width: 80px;
-    margin-right: -20px;
-    
+    width: 100%;
+    margin-right: 0px;
+}
+.remove3{
+    display: none;
 }
 .a2{
     border-right: none;
@@ -79,9 +76,10 @@ nav li{
 
 nav li a{
     font-size: 12px;
-    margin-left: 30px;
+    margin-left: 0px;
     font-weight: 600;
     width: 57px;
+    margin-right: 20px;
 }
 .active{
     display: none;
@@ -139,16 +137,16 @@ margin-left: 50px;
 
 /*politics container-mobile*/
 .politics{
-    position: relative;
-    margin-top: -450px;
+    /*position: relative;*/
+    margin-top: -200px;
     width: 200%;
     height: 1000px;
-    margin-left: -170px;
+    margin-left: -57%;
 }
 .politics-title{
-    width: 200px;
+    width: 40%;
     height: 50px;
-    margin-left: 0px;
+    margin-left: 0%;
     background-color: #fff;
     display: flex;
     align-items: center;
@@ -158,80 +156,87 @@ margin-left: 50px;
     }
 .politics-title::after{
     content: '';
-    width: 200px;
+    width: 32%;
+    margin-top: 15px;
+    margin-left: 3%;
     height: 50px;
-    top: 5px;
-    left: 10px;
-    background: #ecff0d;
-    position: absolute;
-    z-index: -1;
-    margin-top: 0px;
     }
 .politics-title h1{
-    width: 77px;
-    height: 25px;
+    width: 100%;
+    height: 50px;
     top: 1192px;
     left: 57px;
     color: #dc4b25;
     font-family: 'merriweather';
     width: 900px;
-    font-size: 15px;
-    line-height: 25.14px;
-    margin-left: 50px
+    font-size: 200%;
+    line-height: 100%;
+    margin-left: 90px
    }
 
 .politics-contents{
     grid-template-columns: 1fr;
-    margin-left: 0px;
+    margin-left: 0%;
     width: 100%;
     height: 1000px;
+    margin-top: 50px;
 }
 .politics-content{
     margin-top: 0px;
     width: 98.5%;
-    margin-left: 0px;
+    margin-left: 0%;
 }
 .politics-content img{
-    width: 40%;
+    width: 28%;
 }
 .politics-content-text{
     width: 100%;
     height: 100px;
-    margin-left: 15px;
+    margin-left: 1.5%;
     margin-top: 50px;
+}
+.politics-content-text p{
+    width: 100%;
+    margin-left: 0%;
+    font-size: 100%;
+    line-height: 100%;
 }
 /*business container-mobile*/
 #business{
     position: relative;
-    top: 1850px;
-    width: 250%;
-    margin-left: -224px;
-    height: 600px;
+    top: 2100px;
+    width: 200%;
+    margin-left: -70%;
+    height: 700px;
 }
 .business-title{
-        width: 113.84px;
-        height: 25.11px;
-        left: 80px;
+        width: 40%;
+        height: 40px;
+        left: 30px;
         top: 0px;
 }
 .business-title::after{
-    height: 25.11px;
+    height: 40px;
 }
 .business-title h1{
-    font-size: 10px;
+    font-size: 150%;
 }
 .business-contents{
     grid-template-columns: 1fr;
-    margin-left: 0px;
-    margin-top: 0px;
+    margin-left: -8%;
+    margin-top: 50px;
     height: 620px;
-    width: 90%;
-    padding-left: 30px;
+    width: 100%;
+    padding-left: 3%;
 }
 .business-content{
     width: 90%;
     margin-left: 40px;
     height: 75px;
+    margin-top: 20px;
+}
+.business-content img{
+    width: 30%;
 }
 .sports-content-text{
     width: 100%;
@@ -240,22 +245,22 @@ margin-left: 50px;
 #health{
     position: relative;
     margin-top: 0px;
-    width: 250%;
-    margin-left: -224px;
-    height: 585px;
+    width: 200%;
+    margin-left: -60%;
+    height: 700px;
 }
 .health-title{
     position: absolute;
-        width: 113.84px;
-        height: 25.11px;
-        left: 140px;
+        width: 40%;
+        height: 40px;
+        left: 2%;
         top: 20px;
         
 }
 .health-title::after{
     content: '';
     width: 100%;
-    height: 25.11px;
+    height: 40px;
     background-color: #dc4b25;
     z-index: -1;
     position: absolute;
@@ -263,13 +268,13 @@ margin-left: 50px;
     top: 20%;
 }
 .health-title h1{
-    font-size: 10px;
+    font-size: 150%;
 }
 .health-contents{
     grid-template-columns: 1fr;
-    height: 600px;
+    height: 680px;
     width: 100%;
-    margin-left: 0px;
+    margin-left: 0%;
     margin-top: 10px;
 }
 .health-content{ 
@@ -279,23 +284,24 @@ margin-left: 50px;
 .health-content img{
     width: 60%;
     height: 254px;
-    margin-left: -50px; 
-    margin-top: 50px;  
+    margin-left: -30%; 
+    margin-top: 20px;  
 }
 .health-content-text{
-    font-size: 17px;
+    font-size: 100%;
     font-weight: 400;
-    line-height: 21.37px;
-    margin-left: -50px;
+    line-height: 100%;
+    margin-left: -14%;
     height: 58px;
-    width: 60%;
+    width: 85%;
     margin-top: 10px;
 }
+
 .health-btn{
     display: block;
-    margin-left: 600px;
-    margin-top: -30px;
-    width: 64px;
+    margin-left: 75%;
+    margin-top: 0px;
+    width: 14%;
     height: 14px;
     font-size: 10px;
     color: #dc4b25;
@@ -310,9 +316,12 @@ margin-left: 50px;
 .hc{
     grid-row: 1;
     width: 100%;
-    margin-left: 0px;
+    margin-left: -4%;
     margin-bottom: 0px;
     margin-top: 50px;
+}
+.hc p{
+    font-size: 150%;
 }
 .hc1{
     display: none;
@@ -327,12 +336,11 @@ margin-left: 50px;
     margin-top: 20px;
 }
 
-/*Breaking news bar-mobile*/
 .breaking-news-bar{
     width: 216.5%;
     height: 88px;
-    margin-top: 450px;
-    margin-left: -124px;
+    margin-top: 550px;
+    margin-left: -42%;
 }
 .breaking-news-bar-title{
     width: 300px;
@@ -361,23 +369,23 @@ margin-left: 50px;
 /*Editorials container*/
 #editorials{
     position: relative;
-    top: 800px;
+    top: 720px;
     height: 450px;
-    width: 240%;
+    width: 200%;
     margin-left: -200px;
 }
 .editorials-title{
     position: absolute;
-    width: 133.84px;
-    height: 25.11px;
-    left: 50px;
+    width: 40%;
+    height: 40px;
+    left: 2%;
     top: 10px;
 }
 .editorials-title::after{
-    height: 25.21px;
+    height: 40px;
 }
 .editorials-title h1{
-    font-size: 10px;
+    font-size: 150%;
 }
 .editorials-contents{
     grid-template-columns:1fr; 
@@ -389,20 +397,22 @@ margin-left: 50px;
     top: 50px;
     width:95%;
     margin-top: 20px;
-    margin-left: 15px;
+    margin-left: -5%;
+}
+.editorials-content img{
+    width: 35%;
 }
 .editorials-content-text{
     margin-left: 15px;
     margin-top: 0px;
     font-weight: normal;
-    
-    padding: 0;
+    padding: 0%;
     width: 100%;
 }
 .editorial-btn{
     display: block;
-    margin-left: 278px;
-    margin-top:40px;
+    margin-left: 70%;
+    margin-top:80px;
     width: 81px;
     height: 21px;
     font-size: 10px;
@@ -424,46 +434,46 @@ margin-left: 50px;
     grid-template-columns: 1fr;
     margin-top: 750px;
     width: 240%;
-    margin-left: -200px;
+    margin-left: -65%;
 }
 .environment-container{
     width: 100%;
 }
 .environment-title{
-    width: 133.84px;
-    height: 25.11px;
-    margin-left: 70px;
+    width: 40%;
+    height: 40px;
+    margin-left: 7%;
 }
 .environment-title::after{
-height: 25.11px;
+height: 40px;
 }
 .environment-title h1{
-font-size: 10px;
+font-size: 150%;
 }
 .environment-img {
     margin-top:20px;
-    margin-left: 20px;
+    margin-left: 2%;
   width: 90%;
   height: 380px;
-  padding: 0;
+  padding: 0%;
 }
 .environment-img img{
     width: 100%;
-    margin-left: 0px;
+    margin-left: 0%;
 }
 .environment-img p{
     width: 100%;
     height: 74px;
-    margin-left: 20px;
-    font-size: 24px;
-    line-height: 17.6px;
+    margin-left: 2%;
+    font-size: 200%;
+    line-height: 100%;
     font-weight: 700;
 }
 
 
 /*Latest news mobile*/
 .latest-news{
-    margin-top: -1900px;
+    margin-top: -2200px;
     margin-left: -200px;
     background: #fdfcfc;
     width: 200%;
@@ -480,8 +490,7 @@ font-size: 10px;
     width: 100%;
     height: 48px;
     left: 1097px;
-    padding: 10px 0;
-    border: 1px solid black;
+    padding: 1% 0;
     border-top: none;
     border-left: none;
     border-right: none;
@@ -498,25 +507,25 @@ font-size: 10px;
 
 /*Observercartoon*/
 .observercartoon-container{
-    margin-top: 0px;
+    margin-top: 20px;
 }
 .observercartoon-title{
-    width: 133.84px;
-    height: 25.11px;
-    left: 50px;
+    width: 40%;
+    height: 40px;
+    left: 50%;
     top: 10px;
-    margin-left: -30px;
+    margin-left: -3%;
 }
 .observercartoon-title::after{
-height: 25.11px;
+height: 40px;
 
 }
 .observercartoon-title h1{
-font-size: 10px;
+font-size: 150%;
 }
 .observercartoon-img{
     margin-top: 20px;
-    margin-left: 20px;
+    margin-left: 2%;
     width: 90%;
   
 }
@@ -527,9 +536,9 @@ font-size: 10px;
 .observercartoon-img p{
     width: 100%;
     height: 74px;
-    margin-left: 20px;
-    font-size: 24px;
-    line-height: 17.6px;
+    margin-left: 2%;
+    font-size: 200%;
+    line-height: 100%;
     font-weight: 700;
 }
 .footer{
