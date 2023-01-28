@@ -6,7 +6,7 @@
 body{
     font-family: 'Merriweather', serif;
     background: #fdfcfc; 
-    padding: 0 20px;  
+    padding: 0 2%;  
 }
 
 /*Navbar* rectangle 55*/
@@ -262,116 +262,125 @@ nav li a:hover::after{
 
 /*politics container*/
 .politics{
-    margin-top: 50px;
-    width: 1070px;
+    margin-top: 150px;
+    width: 75%;
+    margin-left: -2%;
 }
 .politics-title{
-    width: 188.42px;
+    width: 20%;
     height: 41.55px;
-    margin-left: -25px;
+    margin-left: 0%;
     background-color: #fff;
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: -5px;
+    margin-top: 0px;
     }
 .politics-title::after{
     content: '';
-    width: 188.42px;
+    width: 14%;
     height: 41.55px;
-    top: 850px;
-    left: 5px;
+    margin-left: 1.5%;
     background: #ecff0d;
     position: absolute;
     z-index: -1;
+    margin-top: 15px;
     }
 .politics-title h1{
-    width: 77px;
+    width: 100%;
     height: 25px;
     top: 1192px;
-    left: 57px;
+    margin-left: 25%;
     color: #dc4b25;
     font-family: 'merriweather';
-    width: 900px;
-    font-size: 20px;
-    line-height: 25.14px;
-    margin-left: 50px
+    font-size: 150%;
+    line-height: 100%;
    }
 .politics-contents{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     height: 360px;
-    width: 1070px;
+    width: 100%;
     z-index: 1;
-    margin: 20px 0;
+    margin: 2% 0%;
     }
 
 .politics-content{
    position: relative;
-    margin-left: 25px;
-    margin-top: 100px;
-    margin-right: -20px;
+    margin-left: 10%;
+    margin-top: 30px;
+    margin-right: 0%;
     display: flex;
+    height: 70px;
     align-items: center;
     justify-content: center;
-
+    width: 90%;
 }
 .politics-content-text{
     font-weight: 400;
-    font-size: 15px;
-    line-height: 16.34px;
-    margin-left: 15px;
-    height: 58px;
-    width: 177px;
-    font-weight: 500;
-    font-family: 'lato', serif;
+    margin-left: 1.5%;
+    height: auto;
+    width: 100%;
 }
-.pc{
-    margin-top: -430px;
+.politics-content-text p{
+    width: 100%;
+    font-weight: 400;
+    font-family: 'lato', serif;
+    font-size: 100%;
+    line-height: 100%;   
+}
+.politics-content img{
+    width: 70%;
 }
 
 /*Latest News*/
 .latest-news{
     display: grid;
     grid-template-columns: 1fr;
-    width: 309px;
-    height: 890px;
-    margin-top: -330px;
-    margin-left: 1130px;
+    width: 23%;
+    height: 1000px;
+    margin-top: -450px;
+    margin-left: 77%;
     background: rgb(231, 228, 228);
 }
 .latest-news p{
     color: #d924dd;
-    font-size: 18px;
+    font-size: 150%;
     font-weight: 700;
-    line-height: 22.63px;
-    padding: 0 20px;
+    line-height: 100%;
+    padding: 0 20%;
+    width: 100%;
 }
+.latest-news-contents{
+    margin-top: 50px;
+}
+
 .latest-news-content{
-    width: 267px;
+    width: 100%;
     height: 58px;
-    top: 1264px;
-    left: 1097px;
-    padding: 0;
+    margin-top: 20px;
+    margin-left: 0%;
+    padding: 0%;
 }
 .latest-news-content p{
     font-weight: 400;
-    font-size: 14px;
-    line-height: 17.6px;
+    font-size: 90%;
+    line-height: 100%;
     color: #d60c0c;
+    margin-left: -19%;
 }
 
 /*Sports container*/
 #sports{
-    width: 1070px;
+    width: 75%;
     margin-top: -540px;
     height: 360px;
 }
 .sports-title{
     position: absolute;
-    width: 188.42px;
+    width: 14%;
     height: 41.55px;
-    margin-left: -50px;
+    margin-left: -3.2%;
     background-color: #fff;
     display: flex;
     align-items: center;
@@ -380,7 +389,7 @@ nav li a:hover::after{
 }
 .sports-title::after{
     content: '';
-    width: 188.42px;
+    width: 100%;
     height: 41.55px;
     background-color: #24cfdd;
     z-index: -1;
@@ -390,7 +399,7 @@ nav li a:hover::after{
 }
 .sports-title h1{
     color: #dc4b25;
-    font-size: 20px;
+    font-size: 150%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -401,7 +410,7 @@ nav li a:hover::after{
     grid-template-columns: repeat(3, 1fr);
     height: 330px;
     margin-top: 0px;
-    margin-left: 20px;
+    margin-left: 2%;
 }
 .sports-content{
     top: -400px;
@@ -409,21 +418,26 @@ nav li a:hover::after{
     align-items: center;
     justify-content: center;
     position: relative;
-    margin-left: 0px;
+    margin-left: -5%;
    margin-top: 500px;
-    margin-right: -30px;
-    width: 350px;
-    
+    margin-right: 0%;
+    width: 100%;
+}
+.sports-content img{
+    width: 70%;
 }
 .sports-content-text{
-    font-weight: 400;
-    font-size: 15px;
-    line-height: 16.34px;
-    margin-left: 20px;
+    margin-left: 1%;
     height: 58px;
-    width: 177px;
+    width: 100%;
     font-weight: 500;
     font-family: 'lato', serif;
+}
+.sports-content-text p{
+    font-weight: 400;
+    font-size: 100%;
+    line-height: 100%;
+    
 }
 .sc{
     margin-top: 50px;
@@ -431,15 +445,15 @@ nav li a:hover::after{
 /*Business container*/
 #business{
     position: relative;
-    top: -30px;
-    width: 1070px;
+    top: 0px;
+    width: 75%;
     height: 305px;
 }
 .business-title{
     position: absolute;
-        width: 188.42px;
+        width: 20%;
         height: 41.55px;
-        left: -50px;
+        left: -3%;
         top: -20px;
         background: #fff;
         box-shadow: 0px 4px 7px rgba(0, 0, 0, 0.07);
@@ -452,12 +466,12 @@ nav li a:hover::after{
     background-color: #d924dd;
     z-index: -1;
     position: absolute;
-    left: 10px;
+    left: 3%;
     top: 20%;
 }
 .business-title h1{
     color: #dc4b25;
-    font-size: 20px;
+    font-size: 150%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -468,6 +482,7 @@ nav li a:hover::after{
     grid-template-columns: repeat(3, 1fr);
     margin-top: 40px;
     height: 250px;
+    margin-left: -0.5%;
 }
 
 .business-content{
@@ -476,19 +491,24 @@ nav li a:hover::after{
     align-items: center;
     justify-content: center;
     position: relative;
-    left: 20px;
+    left: 2%;
+}
+.business-content img{
+    width: 70%;
 }
 .business-content-text{
-    font-weight: 400;
-    font-size: 15px;
-    line-height: 16.34px;
-    margin-left: 20px;
+    margin-left: 1%;
     height: 58px;
-    width: 177px;
-    font-weight: 500;
-    font-family: 'lato', serif;
+    width: 100%;
+    
 }
-
+.business-content-text p{
+    font-family: 'lato', serif;
+    font-weight: 400;
+    font-size: 100%;
+    line-height: 100%;
+    width: 90%;  
+}
 
 /*Breaking news bar*/
 .breaking-news-bar{
@@ -531,13 +551,13 @@ nav li a:hover::after{
 #health{
     position: relative;
     top: 30px;
-    width: 1070px;
+    width: 75%;
 }
 .health-title{
     position: absolute;
-    width: 188.42px;
+    width: 20%;
     height: 41.55px;
-    left: -50px;
+    left: -3%;
     top: -50px;
     background: #fff;
     box-shadow: 0px 4px 7px rgba(0, 0, 0, 0.07);
@@ -549,7 +569,7 @@ nav li a:hover::after{
     background-color: #dc4b25;
     z-index: -1;
     position: absolute;
-    left: 10px;
+    left: 3%;
     top: 20%;
 }
 .health-title h1{
@@ -565,7 +585,7 @@ nav li a:hover::after{
     grid-template-columns: repeat(3, 1fr);
     margin-top: 50px;
     height: 300px;
-    width: 1070px;
+    width: 100%;
 }
 
 .health-content{
@@ -574,17 +594,21 @@ nav li a:hover::after{
     align-items: center;
     justify-content: center;
     position: relative;
-    left: 20px;
+    left: 2%;
     margin-top: 0px;
 }
+.health-content img{
+    width: 70%;
+}
 .health-content-text{
-    font-weight: 400;
-    font-size: 15px;
-    line-height: 16.34px;
-    margin-left: 20px;
+    margin-left: 2%;
     height: 58px;
-    width: 177px;
-    font-weight: 500;
+    width: 100%;
+    }
+.health-content-text p{
+    font-weight: 400;
+    font-size: 100%;
+    line-height: 100%;
     font-family: 'lato', serif;
 }
 .health-btn{
@@ -596,13 +620,13 @@ nav li a:hover::after{
 #editorials{
     position: relative;
     top: -470px;
-    width: 1070px;
+    width: 75%;
 }
 .editorials-title{
     position: absolute;
-    width: 188.42px;
+    width: 20%;
     height: 41.55px;
-    left: -50px;
+    left: -3%;
     top: 0px;
     background: #fff;
     box-shadow: 0px 4px 7px rgba(0, 0, 0, 0.07);
@@ -620,7 +644,7 @@ nav li a:hover::after{
 }
 .editorials-title h1{
     color: #dc4b25;
-    font-size: 20px;
+    font-size: 150%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -631,7 +655,7 @@ nav li a:hover::after{
     grid-template-columns: repeat(3, 1fr);
     margin-top: 500px;
     height: 360px;
-    width: 1070px;
+    width: 100%;
 }
 
 .editorials-content{
@@ -640,29 +664,39 @@ nav li a:hover::after{
     align-items: center;
     justify-content: center;
     position: relative;
-    margin-left: 0px;
-    margin-right: -30px;
+    margin-left: 0%;
+    margin-right: -3%;
+}
+.editorials-content img{
+    width: 70%;
 }
 .editorials-content-text{
-    font-weight: 400;
-    font-size: 15px;
-    line-height: 16.34px;
-    margin-left: 20px;
+    margin-left: 1%;
     height: 58px;
-    width: 177px;
+    width: 100%;
+    
+}
+.editorials-content-text p{
     font-weight: 500;
     font-family: 'lato', serif;
+    font-weight: 400;
+    font-size: 100%;
+    line-height: 100%;
+    width: 90%;
+}
+.editorial-btn{
+    display: none;
 }
 /*Aviation container*/
 #aviation{
     position: relative;
-    top: -490px;
+    top: -390px;
     bottom: 50px;
-    width: 1070px;
+    width: 75%;
 }
 .aviation-title{
     position: absolute;
-    width: 188.42px;
+    width: 20%;
     height: 41.55px;
     left: -50px;
     top: 0px;
@@ -677,12 +711,12 @@ nav li a:hover::after{
     background-color: #d924dd;
     z-index: -1;
     position: absolute;
-    left: 10px;
+    left: 3%;
     top: 20%;
 }
 .aviation-title h1{
     color: #dc4b25;
-    font-size: 20px;
+    font-size: 150%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -691,7 +725,7 @@ nav li a:hover::after{
 .aviation-contents{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    width: 1070px;
+    width: 100%;
 }
 .aviation-content{
     top: 0px;
@@ -699,106 +733,86 @@ nav li a:hover::after{
     align-items: center;
     justify-content: center;
     position: relative;
-    margin-left: 0px;
+    margin-left: 0%;
     margin-top: 70px;
-    margin-right: -30px;
+    margin-right: -3%;
+}
+.aviation-content img{
+    width: 70%;
 }
 .aviation-content-text{
-    font-weight: 400;
-    font-size: 15px;
-    line-height: 16.34px;
-    margin-left: 20px;
+    margin-left: 2%;
     height: 58px;
-    width: 177px;
-    font-weight: 500;
+    width: 100%;
+}
+.aviation-content-text p{
+    font-weight: 400;
+    font-size: 100%;
+    line-height: 100%;
     font-family: 'lato', serif;
+    width: 90%;
 }
 
-
 .opinions-container{
-    width: 310px;
-    height: 970px;
+    width: 24%;
+    height: 900px;
     display: grid;
     grid-template-columns: 1fr;
-    margin-left: 1127px;
+    margin-left: 77%;
     margin-top: -1450px;
     background: #e3e3e3;
-    margin-right: 10px;
+    margin-right: 1%;
 }
 .opinions-container p{
     color: #d924dd;
-    font-size: 19px;
+    font-size: 150%;
     font-weight: 700;
-    line-height: 22.63px;
-    padding: 0 20px;
+    line-height: 100%;
+    padding: 0 2%;
 }
 .opinions-contents{
-    left: 1097px;
-    margin-top:-50px;
+    margin-left: 0%;
+    margin-top:-450px;
     height: 300px;
 }
 .opinions-content{
-    width: 267px;
+    width: 100%;
     height: 58px;
     top: 1264px;
-    margin: 10px 10px;
-    padding:0px;
+    margin: 15% 1%;
+    padding:0%;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 .opinions-content p{
     font-weight: 400;
-    font-size: 12px;
-    line-height: 14px;
+    font-size: 100%;
+    line-height: 100%;
     color: #d60c0c;
+    width: 100%;
 }
 
 /*Editor's pick container*/
 .editorpick-container{
-    display: grid;
-    grid-template-columns: 1fr;
-    margin-top: 170px;
-    background: #e3e3e3;
-    margin-right: 10px; 
-    height: 300px;
-}
-.editorpick-container p{
-    width: 126px;
-    height: 23px;
-    color: #d924dd;
-    font-size: 19px;
-    font-weight: 700;
-    line-height: 22.63px;
-    margin-bottom: 0px;
-    margin-top: -30px;
-}
-.editorpick-content{
-    width: 267px;
-    height: 49px;
-   padding: 0; 
-}
-.editorpick-content p{
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 17.6px;
-    color: #000;
-    width: 290px;
-    margin: 10px 0;
-    height: 40px;
+    display: none;
 }
 
 /*environment and observationcartoon*/
 #environment-observationcartoon{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    margin-top: 50px;
+    margin-top: 300px;
+    width: 100%;
+}
+.environment-container{
+    width: 100%;
 }
 .environment-title{
     position: relative;
-    width: 188.42px;
+    width: 30%;
     height: 41.55px;
-    left: -50px;
+    left: -4%;
     top: 0px;
     background: #fff;
     box-shadow: 0px 4px 7px rgba(0, 0, 0, 0.07);
@@ -814,12 +828,12 @@ nav li a:hover::after{
     background-color: #ecff0d;;
     z-index: -1;
     position: absolute;
-    left: 10px;
+    left: 5%;
     top: 20%;
 }
 .environment-title h1{
     color: #dc4b25;
-    font-size: 20px;
+    font-size: 150%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -827,39 +841,48 @@ nav li a:hover::after{
 }
 .environment-img {
   margin-top: 50px;
-  margin-left: 50px;
-  width: 643px;
+  margin-left: 5%;
+  width: 88.5%;
+  height: auto;
+}
+.environment-img img{
+    width: 100%;
 }
 .environment-img p{
     color: #fff;
     margin-top: -150px;
-    width: 632px;
+    width: 100%;
     height: 57px;
-    margin-left: 30px;
-    font-size: 24px;
-    line-height: 30.17px;
+    margin-left: 2%;
+    font-size: 150%;
+    line-height: 100%;
     font-weight: 700;
 }
 .environment-img span{
     display: flex;
     margin-top: 250px;
+    width: 100%;
 }
 .environment-img span p{
-    width: 137px;
+    width: 100%;
     height: 14px;
     font-family: 'Lato';
     font-weight: 400;
-    font-size: 12px;
+    font-size: 80%;
     line-height: 14.4px;
     margin-top: -220px;
 }
 
 /*Observercartoon*/
+.observercartoon-container{
+    width: 100%;
+}
+
 .observercartoon-title{
     position: relative;
-    width: 188.42px;
+    width: 30%;
     height: 41.55px;
-    left: 560px;
+    left: 73%;
     top: 0px;
     background: #fff;
     box-shadow: 0px 4px 7px rgba(0, 0, 0, 0.07);
@@ -868,6 +891,7 @@ nav li a:hover::after{
     align-items: center;
     justify-content: center;
 }
+
 .observercartoon-title::after{
 content: '';
 width: 100%;
@@ -875,29 +899,33 @@ height: 41.55px;
 background-color: #d924dd;
 z-index: -1;
 position: absolute;
-left: 10px;
+left: 5%;
 top: 20%;
 }
 .observercartoon-title h1{
 color: #dc4b25;
-font-size: 17px;
+font-size: 130%;
 display: flex;
 align-items: center;
 justify-content: center;
 margin-top: 10px;
+width: 100%;
 }
 .observercartoon-img{
     margin-top: 50px;
-    margin-left: 20px;
-    width: 643px;
+    margin-left: 6%;
+    width: 88.5%;
+}
+.observercartoon-img img{
+    width: 100%;
 }
 .observercartoon-img p{
     color: #fff;
     margin-top: -150px;
-    width: 632px;
+    width: 100%;
     height: 57px;
-    margin-left: 30px;
-    font-size: 24px;
+    margin-left: 3%;
+    font-size: 150%;
     line-height: 30.17px;
     font-weight: 700;
    
@@ -918,9 +946,9 @@ margin-top: 10px;
 
 /*footer navigation*/
 .footer{
-    margin-left: -1.92%;
+    margin-left: -2.7%;
     margin-top: -200px;
-    width: 103%;
+    width: 103.9%;
     height: 657px;
     padding: 0 .05%;
 }
@@ -944,7 +972,6 @@ margin-top: 10px;
     margin-left: -0.8%;
     padding: 0 3%;
     width: 96.4%;
-    z-index: 1;
 }
 .grid1{
     z-index: 1;
