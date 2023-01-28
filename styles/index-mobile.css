@@ -170,7 +170,6 @@ span{
     margin-left: -15px;
     width: 100%;
     height: 530px;
-   
 }
 .right-content{
     width: 95%;
@@ -182,15 +181,15 @@ span{
 /*politics container-mobile*/
 .politics{
     position: relative;
-    margin-top: -80px;
+    margin-top: -40px;
     width: 90%;
     height: 700px;
-    margin-left: 0px;
+    margin-left: 0%;
 }
 .politics-title{
-    width: 113.84px;
-    height: 25.11px;
-    margin-left: 0px;
+    width: 50%;
+    height: 40.11px;
+    margin-left: 0%;
     background-color: #fff;
     display: flex;
     align-items: center;
@@ -199,37 +198,38 @@ span{
     }
 .politics-title::after{
     content: '';
-    width: 113.84px;
-    height: 25.11px;
-    top: 5px;
+    width: 48%;
+    height: 40.11px;
+    top: -10px;
     left: 10px;
     background: #ecff0d;
     position: absolute;
     z-index: -1;
     }
 .politics-title h1{
-    width: 77px;
+    width: 100%;
     height: 25px;
     top: 1192px;
     left: 57px;
     color: #dc4b25;
     font-family: 'merriweather';
     width: 900px;
-    font-size: 10px;
-    line-height: 25.14px;
-    margin-left: 50px
+    font-size: 150%;
+    line-height: 100%;
+    margin-left: 35%
    }
 
 .politics-contents{
     grid-template-columns: 1fr;
-    margin-left: 0px;
+    margin-left: 0%;
     width: 95%;
     height: 650px;
     margin-top: 20px;
 }
 .politics-content{
-    margin-top: 0px;
+    margin-top: 5px;
     width: 90%;
+    margin-left: 0%;
 }
 .politics-content img{
     margin-top: 0px;
@@ -241,38 +241,39 @@ span{
 /*business container-mobile*/
 #business{
     position: relative;
-    top: 0px;
-    width: 90%;
-    margin-left: 0px;
-    height: 650px;
+    width: 98%;
+    margin-left: -3.5%;
+    height: 790px;
+    margin-top: -50px;
 }
 .business-title{
-        width: 113.84px;
-        height: 25.11px;
-        left: 20px;
+        width: 50%;
+        height: 40.11px;
+        left: 0%;
         top: 0px;
 }
 .business-title::after{
-    height: 25.11px;
+    height: 40.11px;
 }
 .business-title h1{
-    font-size: 10px;
+    font-size: 150;
 }
 .business-contents{
     grid-template-columns: 1fr;
-    margin-left: 10%;
-    margin-top: 0px;
+    margin-left: 15%;
+    margin-top: 30px;
     height: 590px;
     width: 100%;
     
 }
 .business-content img{
     margin-left: 0;
+    width: 50%;
 }
 .business-content{
-    width: 100%;
+    width: 90%;
     margin-left: -73px;
-    margin-top: 0px;
+    margin-top: 20px;
     padding: 0;
 }
 .sports-content-text{
@@ -281,22 +282,22 @@ span{
 /*Health container*/
 #health{
     position: relative;
-    margin-top: -729px;
-    width: 90%;
-    margin-left: 0px;
+    margin-top: -790px;
+    width: 98%;
+    margin-left: -2.6%;
     height: 585px;
 }
 .health-title{
     position: absolute;
-        width: 113.84px;
-        height: 25.11px;
-        left: 20px;
-        top: 20px;
+        width: 50%;
+        height: 40.11px;
+        left: 0%;
+        top: 0px;
 }
 .health-title::after{
     content: '';
     width: 100%;
-    height: 25.11px;
+    height: 40.11px;
     background-color: #dc4b25;
     z-index: -1;
     position: absolute;
@@ -304,21 +305,23 @@ span{
     top: 20%;
 }
 .health-title h1{
-    font-size: 10px;
+    font-size: 150%;
 }
 .health-contents{
     grid-template-columns: 1fr;
     height: 600px;
-    width: 100%;
+    width: 90%;
     margin-top: 10px;
+    margin-left: 0%;
 }
 .health-content{ 
     flex-direction: column; 
+    margin-left: -3%;
 }
 .health-content img{
-    width: 90%;
+    width: 70%;
     height: 154px;
-    margin-left: -170px; 
+    margin-left: -45%; 
     margin-top: 50px;  
 }
 .health-content-text{
@@ -334,14 +337,15 @@ span{
     display: block;
     margin-left: 80%;
     margin-top: -30px;
-    width: 64px;
+    width: 18%;
     height: 14px;
-    font-size: 10px;
+    font-size: 70%;
     color: #dc4b25;
-    line-height: 12.57px;
+    line-height: 100%;
     font-weight: 400;
     background: #d9d9d9;
-    padding: 2px;
+    padding: 0.5%;
+    text-align: center;
 }
 .r-2{
     display: none;
@@ -369,8 +373,8 @@ span{
 .breaking-news-bar{
     width: 100%;
     height: 48px;
-    margin-top: 650px;
-    margin-left: -20px;
+    margin-top: 700px;
+    margin-left: -2%;
 }
 .breaking-news-bar-title{
     height: 48px;
@@ -401,56 +405,56 @@ span{
 /*Editorials container*/
 #editorials{
     position: relative;
-    top: 150px;
-    width: 95%;
-    height: 400px;
-    margin-left: 0px;
+    top: 250px;
+    width: 98%;
+    height: 550px;
+    margin-left: -3%;
 }
 .editorials-title{
     position: absolute;
-    width: 133.84px;
-    height: 25.11px;
-    left: 0px;
+    width: 50%;
+    height: 40.11px;
+    left: 0%;
     top: 10px;
     
 }
 .editorials-title::after{
-    height: 25.21px;
+    height: 40.21px;
 }
 .editorials-title h1{
-    font-size: 10px;
+    font-size: 150%;
 }
 .editorials-contents{
     grid-template-columns:1fr; 
     margin-top: 0px; 
     width: 100%;
-    margin-left: 0px;
+    margin-left: 0%;
 }
 .editorials-content{
     top: 50px;
     width:95%;
     margin-top: 20px;
-    margin-left: 15px;
+    margin-left: 1.5%;
 }
 .editorials-content-text{
-    margin-left: 20px;
+    margin-left: 2%;
     margin-top: 0px;
     font-weight: normal;
-    padding: 0;
+    padding: 0%;
     width: 100%;
 }
 .editorial-btn{
     display: block;
-    margin-left: 79%;
+    margin-left: 65%;
     margin-top:60px;
-    width: 81px;
+    width: 30%;
     height: 21px;
-    font-size: 10px;
+    font-size: 80%;
     color: #000;
-    line-height: 12.57px;
+    line-height: 100%;
     font-weight: 400;
     background: #ffe500;
-    padding: 2px;
+    padding: 0.5%;
     border-radius: 7px;
     display: flex;
     align-items: center;
@@ -462,41 +466,41 @@ span{
 /*Environment*/
 #environment-observationcartoon{
     grid-template-columns: 1fr;
-    margin-left: 0px;
+    margin-left: 0%;
     margin-top: 200px;
     width: 95%;
 }
 .environment-container{
     width: 100%;
-    margin-left: 0px;
+    margin-left: 0%;
     height: 400px;
 }
 .environment-title{
-    width: 133.84px;
-    height: 25.11px;
-    margin-left: 50px;
+    width: 50%;
+    height: 40.11px;
+    margin-left: 0%;
 }
 .environment-title::after{
-height: 25.11px;
+height: 40.11px;
 }
 .environment-title h1{
-font-size: 10px;
+font-size: 150%;
 }
 .environment-img {
     margin-top: 50px;
-    margin-left: -10px;
+    margin-left: -1%;
   width: 95%;
-  padding: 0 20px;
+  padding: 0 2%;
 }
 .environment-img img{
     width: 100%;
 }
 .environment-img p{
-    width: 400px;
+    width: 100%;
     height: 74px;
-    margin-left: 20px;
-    font-size: 14px;
-    line-height: 17.6px;
+    margin-left: 2%;
+    font-size: 100%;
+    line-height: 100%;
     font-weight: 700;
 }
 
@@ -504,31 +508,30 @@ font-size: 10px;
 /*Latest news mobile*/
 .latest-news{
     margin-top: 0px;
-    margin-left: 0px;
+    margin-left: -3.5%;
     background: #fdfcfc;
-    padding: 0;
-    width: 90%;
+    padding: 0%;
+    width: 98%;
 }
 
 .latest-news .title{
     color: #d924dd;
-    font-size: 18px;
     font-weight: 700;
-    line-height: 22.63px;
+    line-height: 100%;
+    width: 100%;
 }
 .latest-news-content{
     width: 100%;
     height: 48px;
-    top: 1264px;
-    left: 1097px;
-    padding: 0px;
+    margin-left: -2.5%;
+    padding: 0%;
 }
 .latest-news-content p{
     font-weight: 400;
-    font-size: 14px;
-    line-height: 17.6px;
+    font-size: 100%;
+    line-height: 100%;
     color: #d60c0c;
-    width: 100%;
+    width: 98%;
 }
 
 
@@ -536,20 +539,20 @@ font-size: 10px;
 .observercartoon-container{
     margin-top: 0px;
     height: 420px;
+    width: 100%;
 }
 .observercartoon-title{
-    width: 133.84px;
-    height: 25.11px;
-    left: 0px;
+    width: 50%;
+    height: 40.11px;
+    left: -3%;
     top: 30px;
-    margin-left: 0px;
 }
 .observercartoon-title::after{
-height: 25.11px;
+height: 40.11px;
 
 }
 .observercartoon-title h1{
-font-size: 10px;
+font-size: 150%;
 }
 .observercartoon-img{
     margin-top: 70px;
@@ -562,16 +565,16 @@ font-size: 10px;
 }
 
 .observercartoon-img p{
-    width: 400px;
+    width: 100%;
     height: 74px;
-    margin-left: 10px;
-    font-size: 14px;
-    line-height: 17.6px;
+    margin-left: 1%;
+    font-size: 100%;
+    line-height: 100%;
     font-weight: 700;
 }
 .footer{
-    width: 100%;
-    margin-left: -20px;
+    width: 117%;
+    margin-left: -20%;
     height: 1300px;
     margin-top: 0px;
     background: #000;
@@ -601,6 +604,7 @@ font-size: 10px;
     font-size: 12px;
     width: 70%;
 }
+
 .grid2{
     margin-top: 20px;
     
