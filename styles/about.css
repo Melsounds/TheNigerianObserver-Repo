@@ -14,17 +14,17 @@ nav{
     position: absolute;
     width: 100%;
     height: 127px;
-    left: 0px;
+    left: 0%;
     top: 0;
     background-color: #fff;
     box-shadow: 0px 0px 65px rgba(0, 0, 0, 0.07);
-    padding-left: 20px;
+    padding-left: 2%;
 }
 .logo img{
-    width: 100%;
-    height: 79.01px;
+    width: 150%;
+    height: 99.01px;
     top: 33.99px;
-    left: 17px;
+    left: 0%;
     padding: 20px;
 }
 .search-icon{
@@ -50,17 +50,17 @@ nav ul{
     text-align: center;
 }
 nav li{
-    font-size: 14px;
+    font-size: 100%;
     width: 100%;
     margin-left: 0.5%;
-    padding: 0;
+    padding: 0%;
 }
 nav a{
     width: 100%;
     height: 15px;
     text-decoration: none;
     color: #000;
-    margin-left: 50px;
+    margin-left: 5%;
     position: relative;
     text-align: center;
     margin-left: auto;
@@ -71,11 +71,11 @@ li .active{
 }
 a::after{
     content: '';
-    width: 0;
+    width: 0%;
     height: 2px;
     background-color: #24cfdd;
     position: absolute;
-    left: 0;
+    left: 0%;
     top: 100%;
 }
 nav li a:hover::after{
@@ -95,48 +95,50 @@ nav li a:hover::after{
 }
 
 .home{
-    width: 100px;
+    width: 8%;
     margin-top: 208px;
-    margin-right: 50px;
+    margin-right: 5%;
     color: #343434;
     z-index: 1;
     font-family: 'lato';
-    font-size: 13px;
+    font-size: 100%;
     font-weight: 300;
-    line-height: 15.6px;
-    border: 1px solid #d0a6a6;
+    line-height: 100%;
+    border: 2px solid #d0a6a6;
     border-top: none;
     border-left: none;
     border-bottom: none;
 }
 .about{
-    width: 120px;
+    width: 12%;
     border-top: none;
     border-right: none;
     border-bottom: none;
     margin-top: 208px;
-    margin-left: -50px;
+    margin-left: -73px;
     font-family: 'lato';
     font-weight: 300;
-    font-size: 13px;
-    line-height: 15.6px;
+    font-size: 100%;
+    line-height: 100%;
     color: #343434;
     z-index: 1;
-    padding-left: 50px;
+    padding-left: 3%;
+     
 }
 main{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
 }
 .main-left{
-    width: 1100px;
+    width: 70%;
+    border: 1px solid black;
 }
 
 .aboutus .title{
     position: absolute;
-    width: 227.67px;
+    width: 20%;
     height: 50.21px;
-    left: 32px;
+    left: 2.1%;
     top: 300px;
     background: #fff;
     box-shadow: 0px 4px 7px rgba(0, 0, 0, 0.07);margin-bottom: 50px;
@@ -148,12 +150,12 @@ main{
     background-color: #ecff03;
     z-index: -1;
     position: absolute;
-    left: 10px;
+    left: 1%;
     top: 20%;
 }
 .title h1{
     color: #dc4b25;
-    font-size: 20px;
+    font-size: 120%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -161,24 +163,29 @@ main{
     font-family: 'merriweather';
 }
 .aboutus p{
-    width: 954px;
+    width: 100%;
     height: 52px;
-    margin-top: 250px;
-    left: 33px;
+    margin-top: 150px;
+    left: 3.3%;
     font-family: 'lato';
     font-weight: 400;
-    font-size: 13px;
-    line-height: 15.6px;
+    font-size: 100%;
+    line-height: 100%;
+    
+
 }
 .comments{
     margin-top: 250px;
+    border: 1px solid black;
+    width: 100%;
+    height: 900px;
 }
 
 .comments .title{
     position: absolute;
-    width: 227.67px;
+    width: 20%;
     height: 50.21px;
-    left: 32px;
+    left: 3.2%;
     top: 600px;
     background: #fff;
     box-shadow: 0px 4px 7px rgba(0, 0, 0, 0.07);
@@ -190,17 +197,21 @@ main{
     background-color: #24c7dd;
     z-index: -1;
     position: absolute;
-    left: 10px;
+    left: 1%;
     top: 20%;
 }
 .comments .title h1{
     color: #dc4b25;
-    font-size: 20px;
+    font-size: 120%;
     display: flex;
     align-items: center;
     justify-content: center;
     margin-top: 20px;
     font-family: 'merriweather';
+}
+.comments-contents{
+    width: 100%;
+    border: 1px solid blue;
 }
 .comments-content{
     display: flex;
@@ -210,49 +221,67 @@ main{
     border-right: none;
     border-top: none;
     margin-top: 80px;
-    margin-bottom: -50px;
-    width: 1100px;
+    margin-bottom: 0px;
+    width: 100%;
+    margin-left: 0%;
 }
+
 .comments-content-img-cont{
-    width: 118px;
+    width: 35%;
     height: 109px;
     background: #b6afaf;
-    margin-left: 10px;
+    margin-left: 0%;
+    border: 1px solid black;
+}
+.comment-content-text{
+    width: 100%;
 }
 .comment-content-text h1{
-    width: 98px;
+    width: 30%;
+    border: 1px solid black;
     height: 18px;
     margin-left: 20px;
     font-family: 'merriweather';
     font-weight: 700;
     font-size: 12px;
     line-height: 17.6px;
-    margin-top: -20px;
-    
+    margin-top: -50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
+
 .comment-content-text h1 p{
-    width: 154px;
+    width: 70%;
     height: 16px;
-    font-size: 12px;
+    font-size: 100%;
     font-weight: 300;
-    line-height: 14.4;
+    line-height: 100%;
     font-family: 'lato';
     color: #343434;
-    margin-left: 780px;
-    margin-top: -100px;
+    margin-left: 215%;
+    margin-top: 0px;  
 }
+.comment-content-text .time{
+    width: 60%;
+    border: 1px solid black;
+    margin-left: 220%;
+    margin-top: -100px;
+    
+}
+
 .comment-content-text p{
-    width: 451px;
-    height: 21px;
-    margin-left: 20px;
+    width: 100%;
+    margin-left: 2%;
     font-family: 'merriweather';
     font-weight: 300;
-    font-size: 14px;
-    line-height: 17.6px;
-    margin-top: 20px;
+    font-size: 100%;
+    line-height: 100%;
+    margin-top: 40px;
+    border: 1px solid black;
 }
 .submitbtn{
-    margin-left: 418px;
+    margin-left: -20%;
     margin-top: 90px;
     margin-bottom: 0;
     width: 80px;
@@ -264,33 +293,36 @@ main{
     border: none;
     background: #b6afaf;
 }
+.sb{
+    margin-left: 50%;
+}
 .reply-container{
-    margin-top: 150px;
+    margin-top: 50px;
     height: 800px;
 }
 .reply-container p{
-    width: 143px;
+    width: 100%;
     height: 23px;
     top: 1930px;
-    left: 44px;
+    left: 4.4%;
     font-family: 'merriweather';
-    font-size: 18px;
-    line-height: 22.63px;
+    font-size: 100%;
+    line-height: 100%;
     color:#ffe500;
 }
 .info{
-    width: 449px;
+    width: 50%;
     height: 25px;
     top: 1979px;
-    margin-left: 20px;
+    margin-left: 2%;
     font-family: 'merriweather';
     font-weight: 400;
-    font-size: 13px;
-    line-height: 16.34px;
+    font-size: 100%;
+    line-height: 100%;
     color: #5f5f5f;
 }
 .input-container{
-    padding: 20px 15px;
+    padding: 2% 1.5%;
 }
 
 form{
