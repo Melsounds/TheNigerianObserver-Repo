@@ -1,13 +1,12 @@
 
-@media screen and (max-width:600px){
+@media all and (max-width:600px){
     *{
         box-sizing: border-box;
-        margin-left: 0.1%;
     }
     body{
-        padding: 0 2%;
-        margin-left: 0%;
         width: 100%;
+        border: 1px solid red;
+        
     }
     nav{
         background: #fff;
@@ -54,15 +53,15 @@
 nav ul{
     margin-top: 190px;
     margin-bottom: 50px;
-    margin-left: -23.9%;
+    margin-left: -26%;
     display: flex;
     align-items: center;
     justify-content: center;
     background: #d6d6d6;
     padding: 0;
     height: 100px;
-    margin-right: -25px;
-    width: 397%;
+    margin-right: -8.5%;
+    width: 400%;
 }
 nav li{
     display: flex;
@@ -277,7 +276,7 @@ span{
 .business-contents{
     grid-template-columns: 1fr;
     margin-left: 0%;
-    margin-top: 30px;
+    margin-top: 60px;
     height: 620px;
     width: 100%;
 }
@@ -288,7 +287,7 @@ span{
 .business-content{
     width: 100%;
     margin-left: -12%;
-    margin-top: 0px;
+    margin-top: 40px;
     padding: 0;
 }
 .sports-content-text{
@@ -335,9 +334,9 @@ span{
     margin-left: 0%;
 }
 .health-content img{
-    width: 90%;
+    width: 70%;
     height: 154px;
-    margin-left: 0%; 
+    margin-left: -20%; 
     margin-top: 50px;  
 }
 .health-content-text{
@@ -387,7 +386,7 @@ span{
 .breaking-news-bar{
     width: 100%;
     height: 48px;
-    margin-top: 650px;
+    margin-top: 850px;
     margin-left: -0.5%;
 }
 .breaking-news-bar-title{
@@ -443,6 +442,7 @@ span{
     margin-top: 0px; 
     width: 100%;
     margin-left: 0%;
+    padding-left: 2%;
 }
 .editorials-content{
     top: 50px;
@@ -593,11 +593,13 @@ font-size: 120%;
     font-weight: 700;
 }
 .footer{
-    width: 103.9%;
+    width: 104%;
     margin-left: -2%;
+    margin-right: 0%;
     height: 1300px;
-    margin-top: 0px;
+    margin-top: 100px;
     background: #000;
+    border: 1px solid blue;
 }
 .footer-img1{
     display: none;
@@ -654,14 +656,17 @@ font-size: 120%;
 }
 .grid3{
     margin-left: 51%;
-    margin-top: -300px;
+    margin-top: -302px;
     width: 50%;
     text-transform: uppercase;
 }
 .grid3 .grid-title{
-    margin-left: 0%;
+    margin-left: 30%;
     text-transform: none;
     margin-top: 10px;
+}
+.grid3 ul{
+    margin-left: 30%;
 }
 .grid3 li{
     padding: 10px 0;
@@ -718,7 +723,7 @@ input{
     text-align: center;
 }
 .footer-social-icons{
-    margin-left: 3%;
+    margin-left: 10%;
     margin-top: 20px;
     width: 100%;
 }
