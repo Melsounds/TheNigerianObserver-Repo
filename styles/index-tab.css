@@ -4,10 +4,8 @@
         margin-left: 0px;
     }
     nav{
-        background: #fff;
         width: 100%;
     }
-    
     .logo{
         width: 40%;
         margin-top: 30px;
@@ -38,11 +36,10 @@
     .remove2{
         display: none;
     }
-    
 nav ul{
     margin-top: 190px;
     margin-bottom: 50px;
-    margin-left: -30%;
+    margin-left: -32.8%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -50,7 +47,7 @@ nav ul{
     padding: 0 35%;
     height: 80px;
     margin-right: -10px;
-    width: 48%;
+    width: 30%;
 }
 nav li{
     display: flex;
@@ -63,22 +60,21 @@ nav li{
     height: 30px;
     width: 100%;
     margin-right: 0px;
+    padding: 0 3.5%;
 }
 .remove3{
     display: none;
 }
 .a2{
-    border-right: none;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+
+    display: none;
 }
 
 nav li a{
-    font-size: 12px;
-    margin-left: 0px;
+    font-size: 80%;
+    margin-left: 37%;
     font-weight: 600;
-    width: 57px;
+    width: 100%;
     margin-right: 20px;
 }
 .active{
@@ -120,7 +116,7 @@ nav li a{
 .right{
     grid-row: 2;
     margin-top: 30px;
-    width: 100%;
+    width: 90%;
 margin-left: 50px;
 }
 
@@ -138,13 +134,13 @@ margin-left: 50px;
 /*politics container-mobile*/
 .politics{
     /*position: relative;*/
-    margin-top: -200px;
+    margin-top: -300px;
     width: 200%;
-    height: 1000px;
-    margin-left: -57%;
+    height: auto;
+    margin-left: -67%;
 }
 .politics-title{
-    width: 40%;
+    width: 60%;
     height: 50px;
     margin-left: 0%;
     background-color: #fff;
@@ -156,9 +152,9 @@ margin-left: 50px;
     }
 .politics-title::after{
     content: '';
-    width: 32%;
+    width: 45%;
     margin-top: 15px;
-    margin-left: 3%;
+    margin-left: 5%;
     height: 50px;
     }
 .politics-title h1{
@@ -178,11 +174,11 @@ margin-left: 50px;
     grid-template-columns: 1fr;
     margin-left: 0%;
     width: 100%;
-    height: 1000px;
+    height: auto;
     margin-top: 50px;
 }
 .politics-content{
-    margin-top: 0px;
+    margin-top: 50px;
     width: 98.5%;
     margin-left: 0%;
 }
@@ -204,9 +200,9 @@ margin-left: 50px;
 /*business container-mobile*/
 #business{
     position: relative;
-    top: 2100px;
+    top: 1750px;
     width: 200%;
-    margin-left: -70%;
+    margin-left: -68%;
     height: 700px;
 }
 .business-title{
@@ -223,15 +219,15 @@ margin-left: 50px;
 }
 .business-contents{
     grid-template-columns: 1fr;
-    margin-left: -8%;
+    margin-left: 0%;
     margin-top: 50px;
     height: 620px;
-    width: 100%;
+    width: 95%;
     padding-left: 3%;
 }
 .business-content{
-    width: 90%;
-    margin-left: 40px;
+    width: 100%;
+    margin-left: -25px;
     height: 75px;
     margin-top: 20px;
 }
@@ -246,7 +242,7 @@ margin-left: 50px;
     position: relative;
     margin-top: 0px;
     width: 200%;
-    margin-left: -60%;
+    margin-left: -68%;
     height: 700px;
 }
 .health-title{
@@ -282,18 +278,18 @@ margin-left: 50px;
     width: 100%;
 }
 .health-content img{
-    width: 60%;
+    width: 100%;
     height: 254px;
-    margin-left: -30%; 
+    margin-left: -12%; 
     margin-top: 20px;  
 }
 .health-content-text{
     font-size: 100%;
     font-weight: 400;
     line-height: 100%;
-    margin-left: -14%;
+    margin-left: 0%;
     height: 58px;
-    width: 85%;
+    width: 100%;
     margin-top: 10px;
 }
 
@@ -316,7 +312,7 @@ margin-left: 50px;
 .hc{
     grid-row: 1;
     width: 100%;
-    margin-left: -4%;
+    margin-left: 4%;
     margin-bottom: 0px;
     margin-top: 50px;
 }
@@ -337,22 +333,21 @@ margin-left: 50px;
 }
 
 .breaking-news-bar{
-    width: 216.5%;
+    width: 249%;
     height: 88px;
-    margin-top: 550px;
-    margin-left: -42%;
+    margin-top: 200px;
+    margin-left: -75%;
 }
 .breaking-news-bar-title{
-    width: 300px;
+    width: 50%;
     height: 88px;
-    margin-left: -100px;
-    padding: 0 5px;
+    margin-left: 0px;
+    padding: 0 2%;
 }
 .breaking-news-bar-title h1{
-    font-size: 12px;
+    font-size: 100%;
     width: 100%;
     height: 48px;
-    font-size: 15px;
     font-weight: 900;
     line-height: 12.75px;
     margin-top: 30px;
@@ -361,10 +356,11 @@ margin-left: 50px;
 .breaking-news-bar p{
     height: 25px;
     top: 2203px;
-    font-size: 10px;
-    line-height: 7.54px;
+    font-size: 80%;
+    line-height: 100%;
     word-spacing: 8%;
     padding: 0 20px;
+    width: 100%;
 }
 /*Editorials container*/
 #editorials{
@@ -372,7 +368,7 @@ margin-left: 50px;
     top: 720px;
     height: 450px;
     width: 200%;
-    margin-left: -200px;
+    margin-left: -75%;
 }
 .editorials-title{
     position: absolute;
@@ -391,13 +387,14 @@ margin-left: 50px;
     grid-template-columns:1fr; 
     margin-top: 0px; 
     width: 95%;
-    margin-left: 40px;
+    margin-left: 0px;
+    padding-left: 2.5%;
 }
 .editorials-content{
     top: 50px;
-    width:95%;
+    width:100%;
     margin-top: 20px;
-    margin-left: -5%;
+    margin-left: 0%;
 }
 .editorials-content img{
     width: 35%;
@@ -473,23 +470,26 @@ font-size: 150%;
 
 /*Latest news mobile*/
 .latest-news{
-    margin-top: -2200px;
-    margin-left: -200px;
+    margin-top: -1900px;
+    margin-left: -70%;
     background: #fdfcfc;
     width: 200%;
-    padding: 0 13%;
+    padding: 0 3%;
 }
 
-.latest-news .title{
+.latest-news-title{
     color: #d924dd;
-    font-size: 18px;
+    font-size: 100%;
     font-weight: 700;
-    line-height: 22.63px;
+    line-height: 100%;
+}
+.latest-news-title p{
+    width: 35%;
+    margin-left: 0%;
 }
 .latest-news-content{
     width: 100%;
     height: 48px;
-    left: 1097px;
     padding: 1% 0;
     border-top: none;
     border-left: none;
