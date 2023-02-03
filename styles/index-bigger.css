@@ -727,16 +727,20 @@
         background: rgb(231, 228, 228);
         padding: 0 1.5%;
     }
-    .latest-news p{
+    .latest-news-title p{
         color: #d924dd;
         font-size: 150%;
         font-weight: 700;
         line-height: 100%;
         padding: 0 2%;
-        margin-top: -450px;
+        margin-top: 30px;
     }
     .latest-news-contents{
-        margin-top: 480px;
+        margin-top: -130px;
+        margin-left: 0%;
+        border: 1px solid red;
+        width: 100%;
+        padding: 0;
     }
     .latest-news-content{
         width: 100%;
@@ -751,7 +755,7 @@
         line-height: 100%;
         color: #d60c0c;
         margin-top: 0;
-        margin-left: 0%;
+        margin-left: -19%;
     }
     #environment-observationcartoon{
         display: grid;
@@ -919,13 +923,13 @@ margin-top: 10px;
     .footer-nav{
         margin-top: -550px;
         width: 100%;
-        padding: 0 6%;
+        padding: 0%;
     }
     .grid1{
         height: auto;
-        width: 70%;
-        margin-left: -10%;
-        padding: 0 5%;
+        width: 67%;
+        margin-left: 5%;
+        padding: 0 3%;
     }
     .grid1 img{
         margin-left: 0%;
@@ -953,7 +957,7 @@ margin-top: 10px;
     }
     .grid2{
         margin-top: 0px;
-        margin-left: -130%;
+        margin-left: -40.5%;
         width: 100%;
         font-size: 90%;
         padding: 0 5%;
@@ -980,12 +984,11 @@ margin-top: 10px;
         margin-bottom: 10px;
     }
     .grid3{
-        margin-left: -115%;
+        margin-left: -30%;
         margin-top: 40px;
         margin-top: 0px;
         width: 108%;
         padding: 0 5%;
-        
     }
     .grid3 li{
         padding: 10% 0;
@@ -999,17 +1002,17 @@ margin-top: 10px;
         color: #dd4b24;
     }
     .grid4{
-        margin-left: -97.5%;
+        margin-left: -10%;
         width: 110%;
         margin-top: 0px;
         height: auto;
         padding: 0 2%;
     }
     input{
-        width: 80%;
+        width: 90%;
         padding: 10px;
         margin-top:10px;
-        margin-left: 0;
+        margin-left: -20%;
     }
     .grid4 .text{
         font-size: 100%;
@@ -1017,7 +1020,7 @@ margin-top: 10px;
         padding: 0;
         font-weight: bold;
         height: 20px;
-        margin-left: 0%;
+        margin-left: -20%;
         margin-top: 20px;
         margin-bottom: 100px;
         font-size: 70%;
@@ -1034,7 +1037,7 @@ margin-top: 10px;
         font-size: 14px;
         line-height: 19px;
         width: 92%;
-        margin-left: -62.5%;
+        margin-left: 5%;
         margin-top: 0px;
     }
     .grid5 .grid-title{
@@ -1044,7 +1047,7 @@ margin-top: 10px;
         margin: -10px -8px;
     }
     .grid5 a{
-        font-size: 70%;
+        font-size: 90%;
     }
     .copyright{
         margin-left: 0%;
