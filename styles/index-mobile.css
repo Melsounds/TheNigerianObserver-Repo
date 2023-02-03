@@ -8,7 +8,6 @@
         padding: 0 2%;
         margin-left: 0%;
         width: 100%;
-        border: 1px solid black;
     }
     nav{
         background: #fff;
@@ -55,14 +54,14 @@
 nav ul{
     margin-top: 190px;
     margin-bottom: 50px;
-    margin-left: -23.3%;
+    margin-left: -23.9%;
     display: flex;
     align-items: center;
     justify-content: center;
     background: #d6d6d6;
     padding: 0;
     height: 100px;
-    margin-right: -10px;
+    margin-right: -25px;
     width: 397%;
 }
 nav li{
