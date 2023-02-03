@@ -1,13 +1,18 @@
 
 @media screen and (max-width:600px){
+    *{
+        box-sizing: border-box;
+        margin-left: 0.1%;
+    }
     body{
-        padding: 0 20px;
-        margin-left: 0px;
+        padding: 0 2%;
+        margin-left: 0%;
         width: 100%;
+        border: 1px solid black;
     }
     nav{
         background: #fff;
-        width: 109%;
+        width: 100%;
     }
     .remove{
         display: none;
@@ -50,7 +55,7 @@
 nav ul{
     margin-top: 190px;
     margin-bottom: 50px;
-    margin-left: -32.5%;
+    margin-left: -23.3%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -58,13 +63,13 @@ nav ul{
     padding: 0;
     height: 100px;
     margin-right: -10px;
-    width: 440%;
+    width: 397%;
 }
 nav li{
     display: flex;
     align-items: center;
     justify-content: center;
-    padding-right: 0px;
+    padding: 0px 2%;
     border: 2px solid #dc4b25;
     border-top: none;
     border-bottom: none;
@@ -126,17 +131,19 @@ nav li a{
 }
 .center{
     grid-row: 1;
+    width: 100%;
+    height: 350px;
 }
 .image-cont{
-    width: 105%;
-    margin-left: -15px;
+    width: 100%;
+    margin-left: 0%;
     height: 220px;
 }
 .center-img{
     height: 206px;
 }
 .img-text{
-    margin-left: -15px;
+    margin-left: 0%;
     width: 96%;
     height: 56px;
     margin-top: 5px;
@@ -152,7 +159,7 @@ nav li a{
 
 .topstories-content{
     width: 100%; 
-    margin-left: 0px; 
+    margin-left: 0%; 
     top: 350px;
 }
 .topstories-content img{
@@ -166,23 +173,27 @@ span{
     display: block;
 }
 .right{
-    margin-top: -670px;
-    margin-left: -15px;
+    margin-top: -550px;
+    margin-left: 0%;
     width: 100%;
     height: 530px;
 }
+
 .right-content{
-    width: 95%;
-    margin-left: 0px;
+    width: 100%;
+    margin-left: 0%;
 }
 .right-content-text{
+    width: 100%;
+}
+.right-content-text p{
     width: 100%;
 }
 /*politics container-mobile*/
 .politics{
     position: relative;
-    margin-top: -40px;
-    width: 90%;
+    margin-top: 20px;
+    width: 100%;
     height: 700px;
     margin-left: 0%;
 }
@@ -222,34 +233,40 @@ span{
 .politics-contents{
     grid-template-columns: 1fr;
     margin-left: 0%;
-    width: 95%;
+    width: 100%;
     height: 650px;
     margin-top: 20px;
 }
 .politics-content{
-    margin-top: 5px;
-    width: 90%;
+    margin-top: 0px;
+    width: 100%;
     margin-left: 0%;
+    height: auto;
 }
 .politics-content img{
     margin-top: 0px;
+    width: 30%;
+    margin-left: 0%;
 }
 .politics-content-text{
     margin-top: 0px;
+    width: 70%;
+}
+.politics-content-text p{
     width: 100%;
 }
 /*business container-mobile*/
 #business{
     position: relative;
-    width: 98%;
-    margin-left: -3.5%;
-    height: 790px;
-    margin-top: -50px;
+    width: 100%;
+    margin-left: 0%;
+    height: 700px;
+    margin-top: 100px;
 }
 .business-title{
         width: 50%;
         height: 40.11px;
-        left: 0%;
+        left: 3%;
         top: 0px;
 }
 .business-title::after{
@@ -260,38 +277,38 @@ span{
 }
 .business-contents{
     grid-template-columns: 1fr;
-    margin-left: 15%;
+    margin-left: 0%;
     margin-top: 30px;
-    height: 590px;
+    height: 620px;
     width: 100%;
-    
 }
 .business-content img{
-    margin-left: 0;
+    margin-left: 10%;
     width: 50%;
 }
 .business-content{
-    width: 90%;
-    margin-left: -73px;
-    margin-top: 20px;
+    width: 100%;
+    margin-left: -12%;
+    margin-top: 0px;
     padding: 0;
 }
 .sports-content-text{
     width: 100%;
 }
+
 /*Health container*/
 #health{
     position: relative;
-    margin-top: -790px;
-    width: 98%;
-    margin-left: -2.6%;
+    margin-top: -700px;
+    width: 100%;
+    margin-left: 0%;
     height: 585px;
 }
 .health-title{
     position: absolute;
         width: 50%;
         height: 40.11px;
-        left: 0%;
+        left: 2%;
         top: 0px;
 }
 .health-title::after{
@@ -310,25 +327,25 @@ span{
 .health-contents{
     grid-template-columns: 1fr;
     height: 600px;
-    width: 90%;
+    width: 100%;
     margin-top: 10px;
     margin-left: 0%;
 }
 .health-content{ 
     flex-direction: column; 
-    margin-left: -3%;
+    margin-left: 0%;
 }
 .health-content img{
-    width: 70%;
+    width: 90%;
     height: 154px;
-    margin-left: -45%; 
+    margin-left: 0%; 
     margin-top: 50px;  
 }
 .health-content-text{
-    font-size: 17px;
+    font-size: 100%;
     font-weight: 400;
-    line-height: 21.37px;
-    margin-left: -30px;
+    line-height: 100%;
+    margin-left: 0%;
     height: 58px;
     width: 90%;
     margin-top: 10px;
@@ -353,28 +370,26 @@ span{
 .hc{
     grid-row: 1;
     width: 100%;
-    margin-left: 70px;
+    margin-left: 0%;
     margin-bottom: 20px;
 }
 .hc1{
     display: none;
 }
-.hc2{
-    width: 80%;
-    margin-left: -150px;
-}
+
 .hc2-text{
     font-weight: 700;
-    margin-left: -180px;
+    margin-left: 0%;
     margin-top: 20px;
+    width: 90%;
 }
 
 /*Breaking news bar-mobile*/
 .breaking-news-bar{
     width: 100%;
     height: 48px;
-    margin-top: 700px;
-    margin-left: -2%;
+    margin-top: 650px;
+    margin-left: -0.5%;
 }
 .breaking-news-bar-title{
     height: 48px;
@@ -405,10 +420,10 @@ span{
 /*Editorials container*/
 #editorials{
     position: relative;
-    top: 250px;
-    width: 98%;
-    height: 550px;
-    margin-left: -3%;
+    top: 150px;
+    width: 100%;
+    height: 500px;
+    margin-left: 0%;
 }
 .editorials-title{
     position: absolute;
@@ -432,9 +447,13 @@ span{
 }
 .editorials-content{
     top: 50px;
-    width:95%;
+    width:100%;
     margin-top: 20px;
-    margin-left: 1.5%;
+    margin-left: 0%;
+}
+.editorials-content img{
+    width: 40%;
+    margin-left: 0%;
 }
 .editorials-content-text{
     margin-left: 2%;
@@ -467,8 +486,8 @@ span{
 #environment-observationcartoon{
     grid-template-columns: 1fr;
     margin-left: 0%;
-    margin-top: 200px;
-    width: 95%;
+    margin-top: 150px;
+    width: 100%;
 }
 .environment-container{
     width: 100%;
@@ -478,7 +497,7 @@ span{
 .environment-title{
     width: 50%;
     height: 40.11px;
-    margin-left: 0%;
+    margin-left: 4.5%;
 }
 .environment-title::after{
 height: 40.11px;
@@ -489,7 +508,7 @@ font-size: 150%;
 .environment-img {
     margin-top: 50px;
     margin-left: -1%;
-  width: 95%;
+  width: 100%;
   padding: 0 2%;
 }
 .environment-img img{
@@ -498,7 +517,7 @@ font-size: 150%;
 .environment-img p{
     width: 100%;
     height: 74px;
-    margin-left: 2%;
+    margin-left: 1%;
     font-size: 100%;
     line-height: 100%;
     font-weight: 700;
@@ -507,33 +526,35 @@ font-size: 150%;
 
 /*Latest news mobile*/
 .latest-news{
-    margin-top: 0px;
-    margin-left: -3.5%;
+    margin-top: 50px;
+    margin-left: 0%;
     background: #fdfcfc;
     padding: 0%;
     width: 98%;
 }
 
-.latest-news .title{
+.latest-news-title p{
     color: #d924dd;
     font-weight: 700;
     line-height: 100%;
-    width: 100%;
+    width: 80%;
+    margin-left: -18%;
+}
+.latest-news-contents{
+    margin-top: 0px;
 }
 .latest-news-content{
     width: 100%;
     height: 48px;
-    margin-left: -2.5%;
+    margin-left: 0%;
     padding: 0%;
+    margin-top: 40px;
 }
 .latest-news-content p{
-    font-weight: 400;
-    font-size: 100%;
-    line-height: 100%;
-    color: #d60c0c;
-    width: 98%;
+    width: 100%;
+padding: 0;
+margin-left: 0%;
 }
-
 
 /*Observercartoon*/
 .observercartoon-container{
@@ -544,7 +565,7 @@ font-size: 150%;
 .observercartoon-title{
     width: 50%;
     height: 40.11px;
-    left: -3%;
+    left: 0%;
     top: 30px;
 }
 .observercartoon-title::after{
@@ -552,13 +573,13 @@ height: 40.11px;
 
 }
 .observercartoon-title h1{
-font-size: 150%;
+font-size: 120%;
 }
 .observercartoon-img{
     margin-top: 70px;
-    margin-left: -10px;
-  width: 95%;
-  padding: 0 20px;
+    margin-left: -1%;
+  width: 100%;
+  padding: 0 2%;
 }
 .observercartoon-img img{
     width: 100%;
@@ -573,8 +594,8 @@ font-size: 150%;
     font-weight: 700;
 }
 .footer{
-    width: 117%;
-    margin-left: -20%;
+    width: 103.9%;
+    margin-left: -2%;
     height: 1300px;
     margin-top: 0px;
     background: #000;
@@ -588,13 +609,17 @@ font-size: 150%;
 .footer-nav{
     grid-template-columns: 1fr;
     margin-top: -1250px;
+    width: 100%;
+}
+.grid1{
+    width: 100%;
 }
 .grid1 img{
-    margin-left: 0px;
+    margin-left: 0%;
 }
 .grid1 p{
     width: 100%;
-    font-size: 14px;
+    font-size: 100%;
     text-align: center;
 }
 .icons{
@@ -607,7 +632,8 @@ font-size: 150%;
 
 .grid2{
     margin-top: 20px;
-    
+    margin-left: 0%;
+    width: 50%;
 }
 .grid2 li{
     padding: 10px 0;
@@ -615,45 +641,54 @@ font-size: 150%;
 .grid2 li a{
     text-transform: uppercase;
     text-align: center;
-    margin-left: 100px;
+    margin-left: 0%;
     width: 100%;
-    font-size: 13px;
+    font-size: 80%;
 }
 
 .grid2 a:hover{
     color: #dd4b24;
 }
 
-.grid-title{
-    margin-left:100px;
+.grid2 .grid-title{
+    margin-left: 0%;
 }
 .grid3{
-    margin-left: 45%;
+    margin-left: 51%;
     margin-top: -300px;
+    width: 50%;
+    text-transform: uppercase;
 }
 .grid3 .grid-title{
-    margin-left: 50px;
+    margin-left: 0%;
+    text-transform: none;
+    margin-top: 10px;
 }
 .grid3 li{
     padding: 10px 0;
 }
 .grid3 a{
-    margin-left: 50px;
+    margin-left: 0px;
+    font-size: 80%;
 }
 .grid3 a:hover{
     color: #dd4b24;
 }
 .grid4{
-    margin-left: -20px;
+    margin-left: 2.5%;
     width: 100%;
     margin-top: 30px;
-    
 }
 .grid4 .grid-title p{
-    margin-left: 50px;
-    width: 114%;
-    font-size: 16.7px;
+    margin-left: 0px;
+    width: 100%;
+    font-size: 100%;
     word-spacing: 10px;
+}
+.grid4 .grid-title{
+    width: 100%;
+    margin-left: 0;
+    text-align: center;
 }
 .grid4 .text{
     font-size: 13px;
@@ -661,12 +696,12 @@ font-size: 150%;
     padding: 0;
     font-weight: bold;
     height: 20px;
-    margin-left: -15px;
+    margin-left: 0%;
     margin-top: 10px;
     text-align: center;
 }
 input{
-    width: 88%;
+    width: 100%;
     padding: 20px;
     margin-top:20px;
     color: #fff;
@@ -675,16 +710,16 @@ input{
     margin-left: 0.5%;
 }
 .submit-btn{
-    width: 96%;
+    width: 100%;
 }
 .copyright{
-    margin-left: -25px;
+    margin-left: -1%;
     width: 98%;
     margin-top: 20px;
     text-align: center;
 }
 .footer-social-icons{
-    margin-left: 50px;
+    margin-left: -5%;
     margin-top: 20px;
     width: 100%;
 }
