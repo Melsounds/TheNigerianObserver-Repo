@@ -96,7 +96,6 @@ nav li a:hover::after{
 .topstories{
     width: 100%;
     margin-top: 250px;
-    border: 1px solid black;
 }
 .title{
     position: absolute;
