@@ -1,16 +1,19 @@
 @media screen and (min-width:601px) and (max-width:768px){
     body{
-        padding: 0% 30%;
-        margin-left: 0px;
+        padding: 0;
+        width: 100%;
+        margin-left: 0%;
     }
     nav{
         width: 100%;
+        flex-wrap: nowrap;
+        margin-left: 0;
     }
     .logo{
         width: 40%;
         margin-top: 30px;
         margin-bottom: 70px;
-        margin-left: 0%;
+        margin-left: 3%;
     }
     .logo img{
         margin-top: 0px;
@@ -22,7 +25,7 @@
         align-items: center;
         justify-content: space-between;
         width: 100%;
-        margin-left: -150px;
+        margin-left: 40%;
         margin-right: 10%;
         margin-top: -30px;
     }
@@ -31,98 +34,102 @@
     }
     .search-icon{
         display: block;
-        margin-left: -150px;
+        margin-left: 0px;
     }
-    .remove2{
-        display: none;
-    }
-nav ul{
-    margin-top: 190px;
-    margin-bottom: 50px;
-    margin-left: -32.8%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+
+span {
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
     background: #d6d6d6;
-    padding: 0 35%;
-    height: 80px;
-    margin-right: -10px;
-    width: 30%;
+    margin-top: 127px;
+    padding: 10px 0%;
+    width: 100%;
+    margin-left: 0%;
 }
-nav li{
-    display: flex;
-    align-items: center;
-    justify-content: center;
+
+span li{
     border: 2px solid #dc4b25;
+    padding: 5px 0%;
     border-top: none;
     border-bottom: none;
     border-left: none;
-    height: 30px;
+    margin-left: 0%;
     width: 100%;
-    margin-right: 0px;
-    padding: 0 3.5%;
+    list-style: none;
 }
-.remove3{
-    display: none;
+span a{
+    color: #000;
+    width: 100%;
+    margin-left: 0%;
+    margin-left: 20%;
+}
+.vec{
+    display: block;
+    height: 12px;
+    margin-top: 3px;
 }
 .a2{
-
-    display: none;
+    display: flex;
+    border-right: none;
 }
-
-nav li a{
-    font-size: 80%;
-    margin-left: 37%;
-    font-weight: 600;
-    width: 100%;
-    margin-right: 20px;
+.remove2{
+    display: none;
 }
 .active{
     display: none;
 }
-
-.title{
-        width: 200px;
-        height: 50px;
-        left: 30%;
-        top: 200.5px;
-}
-.title::after{
-    height: 50px
-}
-.title h1{
-    font-size: 15px;
-    margin-top: 20px;
-}
 .topstories{
     padding: 0;
-    width: 100%;
-    margin-top: 200px;
-    height: 2560px;
-    margin-left: -225px;
+    width: 99.5%;
+    margin-top: 0px;
+    height: auto;
+    margin-left: 0%;
 }
+.topstories-contents{
+    margin-top: 70px;
+}
+.title{
+    width: 60%;
+    height: 50px;
+    left: 0%;
+    top: 50px;
+}
+.title::after{
+height: 50px
+}
+.title h1{
+font-size: 200%;
+margin-top: 20px;
+}
+
 .left{
     display: none;
 }
 .center{
-    width: 90%;
+    width: 100%;
     grid-row: 1;
     margin-top: 80px;
     margin-left: 10%;
 }
+.image-cont{
+ padding: 0;   
+}
 .center img{
-    width: 90%;
+    width: 100%;
+}
+.name-date{
+    display: none;
 }
 .right{
     grid-row: 2;
     margin-top: 30px;
-    width: 90%;
-margin-left: 50px;
+    width: 100%;
+    margin-left: 5%;
 }
 
 .right-content{
-    width: 100%;
-    margin-left: 0px;
+    width: 96%;
+    margin-left: 2%;
 }
 .right-content-text{
     width: 100%;
@@ -133,11 +140,10 @@ margin-left: 50px;
 
 /*politics container-mobile*/
 .politics{
-    /*position: relative;*/
-    margin-top: -300px;
-    width: 200%;
+    margin-top: 100px;
+    width: 100%;
     height: auto;
-    margin-left: -67%;
+    margin-left: 0%;
 }
 .politics-title{
     width: 60%;
@@ -152,7 +158,7 @@ margin-left: 50px;
     }
 .politics-title::after{
     content: '';
-    width: 45%;
+    width: 60%;
     margin-top: 15px;
     margin-left: 5%;
     height: 50px;
@@ -161,18 +167,16 @@ margin-left: 50px;
     width: 100%;
     height: 50px;
     top: 1192px;
-    left: 57px;
     color: #dc4b25;
     font-family: 'merriweather';
-    width: 900px;
+    width: 100%;
     font-size: 200%;
     line-height: 100%;
-    margin-left: 90px
    }
 
 .politics-contents{
     grid-template-columns: 1fr;
-    margin-left: 0%;
+    margin-left: 2%;
     width: 100%;
     height: auto;
     margin-top: 50px;
@@ -201,14 +205,14 @@ margin-left: 50px;
 #business{
     position: relative;
     top: 1750px;
-    width: 200%;
-    margin-left: -68%;
+    width: 100%;
+    margin-left: 0%;
     height: 700px;
 }
 .business-title{
-        width: 40%;
+        width: 60%;
         height: 40px;
-        left: 30px;
+        left: 0%;
         top: 0px;
 }
 .business-title::after{
@@ -241,15 +245,15 @@ margin-left: 50px;
 #health{
     position: relative;
     margin-top: 0px;
-    width: 200%;
-    margin-left: -68%;
+    width: 100%;
+    margin-left: 0%;
     height: 700px;
 }
 .health-title{
     position: absolute;
-        width: 40%;
+        width: 60%;
         height: 40px;
-        left: 2%;
+        left: 0%;
         top: 20px;
         
 }
@@ -264,7 +268,7 @@ margin-left: 50px;
     top: 20%;
 }
 .health-title h1{
-    font-size: 150%;
+    font-size: 200%;
 }
 .health-contents{
     grid-template-columns: 1fr;
@@ -275,13 +279,14 @@ margin-left: 50px;
 }
 .health-content{ 
     flex-direction: column; 
-    width: 100%;
+    width: 90%;
 }
 .health-content img{
-    width: 100%;
+    width: 90%;
     height: 254px;
-    margin-left: -12%; 
-    margin-top: 20px;  
+    margin-left: 0%; 
+    margin-top: 20px; 
+    object-fit: cover; 
 }
 .health-content-text{
     font-size: 100%;
@@ -311,32 +316,28 @@ margin-left: 50px;
 }
 .hc{
     grid-row: 1;
-    width: 100%;
-    margin-left: 4%;
+    width: 90%;
+    margin-left: 0%;
     margin-bottom: 0px;
-    margin-top: 50px;
+    margin-top: 70px;
 }
-.hc p{
-    font-size: 150%;
-}
+
 .hc1{
     display: none;
 }
-.hc2{
-    width: 80%;
-    margin-left: -150px;
-}
+
 .hc2-text{
     font-weight: 700;
-    margin-left: -50px;
+    margin-left: 0%;
+    width: 95%;
     margin-top: 20px;
 }
 
 .breaking-news-bar{
-    width: 249%;
+    width: 100%;
     height: 88px;
     margin-top: 200px;
-    margin-left: -75%;
+    margin-left: 0%;
 }
 .breaking-news-bar-title{
     width: 50%;
@@ -365,10 +366,10 @@ margin-left: 50px;
 /*Editorials container*/
 #editorials{
     position: relative;
-    top: 720px;
+    top: 770px;
     height: 450px;
-    width: 200%;
-    margin-left: -75%;
+    width: 100%;
+    margin-left: 0%;
 }
 .editorials-title{
     position: absolute;
@@ -409,7 +410,7 @@ margin-left: 50px;
 .editorial-btn{
     display: block;
     margin-left: 70%;
-    margin-top:80px;
+    margin-top:50px;
     width: 81px;
     height: 21px;
     font-size: 10px;
@@ -429,17 +430,18 @@ margin-left: 50px;
 /*Environment*/
 #environment-observationcartoon{
     grid-template-columns: 1fr;
-    margin-top: 750px;
-    width: 240%;
-    margin-left: -65%;
+    margin-top: 770px;
+    width: 100%;
+    margin-left: 0%;
 }
 .environment-container{
     width: 100%;
+    height: 500px;
 }
 .environment-title{
     width: 40%;
     height: 40px;
-    margin-left: 7%;
+    margin-left: 0%;
 }
 .environment-title::after{
 height: 40px;
@@ -462,7 +464,7 @@ font-size: 150%;
     width: 100%;
     height: 74px;
     margin-left: 2%;
-    font-size: 200%;
+    font-size: 190%;
     line-height: 100%;
     font-weight: 700;
 }
@@ -514,7 +516,7 @@ font-size: 150%;
     height: 40px;
     left: 50%;
     top: 10px;
-    margin-left: -3%;
+    margin-left: 0%;
 }
 .observercartoon-title::after{
 height: 40px;
@@ -537,13 +539,13 @@ font-size: 150%;
     width: 100%;
     height: 74px;
     margin-left: 2%;
-    font-size: 200%;
+    font-size: 190%;
     line-height: 100%;
     font-weight: 700;
 }
 .footer{
-    width: 250.6%;
-    margin-left: -75%;
+    width: 100%;
+    margin-left: 0%;
     height: 1300px;
     margin-top: -100px;
     background: #000;
@@ -559,27 +561,36 @@ font-size: 150%;
     margin-top: -1250px;
     width: 100%;
 }
+.grid1{
+    margin-left: 2%;
+    width: 90%;
+}
 .grid1 img{
     margin-left: 0px;
 }
 .grid1 p{
-    width: 160%;
+    width: 100%;
     font-size: 14px;
     text-align: center;
-    margin-left: -40%;
+    margin-left: 0%;
 }
 .icons{
     margin-top: 0px;
-    margin-left: -100px;
-    width: 160%;
+    margin-left: 20%;
+    width: 50%;
 }
 .icons p{
-    font-size: 12px;
-    margin-left: 200px;
+    font-size: 100%;
+    margin-left: 0%;
+}
+.phone{
+    width: 100%;
+    margin-left: 0%;
 }
 .grid2{
     margin-top: 20px;
-    margin-left: -200px;
+    margin-left: 5%;
+    width: 45%;
 }
 .grid2 li{
     padding: 10px 0;
@@ -600,8 +611,9 @@ font-size: 150%;
     margin-left:100px;
 }
 .grid3{
-    margin-left: 45%;
+    margin-left: 50%;
     margin-top: -300px;
+    width: 45%;
 }
 .grid3 .grid-title{
     margin-left: 50px;
@@ -617,51 +629,51 @@ font-size: 150%;
     color: #dd4b24;
 }
 .grid4{
-    margin-left: -220px;
-    width: 200%;
+    margin-left: 3%;
+    width: 90%;
     margin-top: 30px;
     height: 350px;
-    
 }
 .grid4 .grid-title p{
     margin-left: 170px;
-    width: 130%;
-    font-size: 17px;
+    width: 150%;
+    font-size: 100%;
     word-spacing: 10px;
+    height: auto;
 }
 .grid4 .text{
-    font-size: 17px;
-    width: 98.8%;
+    font-size: 100%;
+    width: 100%;
     padding: 0;
     font-weight: bold;
     height: 20px;
-    margin-left: -15px;
+    margin-left: 0%;
     margin-top: 10px;
     text-align: center;
 }
 input{
-    width: 70%;
+    width: 85%;
     padding: 20px;
     margin-top:20px;
     margin-left: 5.5%;
 }
 .submit-btn{
-    width: 76%;
+    width: 92%;
 }
 .copyright{
-    margin-left: -20%;
-    width: 98%;
+    margin-left: 15%;
+    width: 70%;
     margin-top: 0px;
     text-align: center;
-    font-size: 65px;
+    font-size: 100%;
 }
 .footer-social-icons{
-    margin-left: -70px;
+    margin-left: 22%;
     margin-top: 20px;
-    width: 150%;
+    width: 60%;
 }
 .footer-social-icon{
-    width: 60px;
+    width: 100%;
     height: 50px;
     margin-left: 30px;
 }
