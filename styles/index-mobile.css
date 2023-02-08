@@ -2,17 +2,18 @@
 @media screen  and (max-device-width:600px){
     body{
         padding: 0; 
-        height: auto;
+        height: 7485px;
+        width: 100%;
         border: 1px solid black;
     }
     nav{
         height: auto;
+        width: 100%;
     }
     .logo{
        margin-top: 0px;
        width: 50%;
        margin-left: -45%;
-       border: 1px solid black;
     }
     .logo img{
         width: 100%;
@@ -88,6 +89,7 @@
         margin-left: 2%;
         padding: 0px;
         height: auto;
+        border: 1px solid black;
     }
     .left{
         display: none;
@@ -104,6 +106,7 @@
     }
     .center-img{
         height: 206px;
+        width: 99.7%;
     }
     .img-text{
         margin-left: 0%;
@@ -143,15 +146,15 @@
         height: 530px;
     }
     .right-content{
-        width: 100%;
+        width: 99%;
         margin-left: 0%;
     }
     .right-content-text{
-        width: 100%;
+        width: 99%;
         margin-left: 0%;
     }
     .right-content-text p{
-        width: 100%;
+        width: 99%;
     }
     /*politics container-mobile*/
 .politics{
@@ -628,6 +631,7 @@ font-size: 170%;
     width: 45%;
     padding-left: 2%;
     text-align: center;
+    border: 1px solid red;
 }
 .grid2 li{
     padding: 10px 0;
@@ -653,6 +657,7 @@ font-size: 170%;
     width: 48%;
     text-transform: uppercase;
     text-align: center;
+    border: 1px solid red;
 }
 .grid3 .grid-title{
     margin-left: 35%;
@@ -676,6 +681,7 @@ font-size: 170%;
     margin-left: 0%;
     width: 95%;
     margin-top: 30px;
+    border: 1px solid red;
 }
 .grid4 .grid-title p{
     margin-left: 0px;
