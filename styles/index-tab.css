@@ -8,14 +8,12 @@
         width: 100%;
         flex-wrap: nowrap;
         margin-left: 0;
-        border: 1px solid black;
     }
     .logo{
         width: 42%;
         margin-top: 30px;
         margin-bottom: 70px;
         margin-left: 3%;
-        border: 1px solid black;
     }
     .logo img{
         margin-top: 0px;
@@ -31,7 +29,6 @@
         margin-left: 60%;
         margin-right: 10%;
         margin-top: -130px;
-        border: 1px solid black;
     }
     .menu-icon{
         display: block;
@@ -41,7 +38,6 @@
         margin-left: 0px;
     }
     .nav-list {
-        border: 1px solid black;
         display: flex;
         align-items: center;
         justify-content: center;
@@ -110,7 +106,6 @@
     margin-left: 0.25%;
     margin-top: 50px;
     height: auto;
-    border: 1px solid blue;
 }
 .title{
     position: relative;
@@ -156,11 +151,9 @@
     width: 100%;
     grid-row: 1;
     margin-top: 80px;
-    border: 1px solid red;
 }
 .image-cont{
- padding: 0; 
- border: 1px solid purple;  
+ padding: 0;  
 }
 .center img{
     width: 100%;
@@ -191,7 +184,6 @@ p.date{
     margin-left: 0%;
     width: 100%;
     margin-top: 0px;
-    border: 1px solid black;
 }
 .right-content{
     border: 1px solid #d9d9f9;
@@ -240,7 +232,6 @@ p.date{
     height: auto;
     margin-left: 0%;
     padding-left: 2%;
-    border: 1px solid black;
 }
 .politics-title{
     width: 70%;
@@ -250,13 +241,13 @@ p.date{
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 20px;
+    margin-top: -30px;
     }
 .politics-title::after{
     content: '';
     width: 68%;
     height: 40.11px;
-    top: 28px;
+    top: 15px;
     left: 4%;
     background: #ecff0d;
     position: absolute;
@@ -279,7 +270,7 @@ p.date{
     margin-left: 0%;
     width: 99%;
     height: auto;
-    margin-top: 20px;
+    margin-top: 50px;
 }
 .politics-content{
     display: flex;
@@ -308,7 +299,6 @@ p.date{
     margin-left: 0%;
     background: #fdfcfc;
     width: 99.5%;
-    border: 1px solid black;
 }
 .latest-news-title p{
     color: #d924dd;
@@ -346,14 +336,13 @@ font-size: 130%;
     width: 99.6%;
     margin-left: 0%;
     height: auto;
-    border: 1px solid black;
 }
 .business-title{
     position: absolute;
         width: 70%;
         height: 41.55px;
         left: 0%;
-        top: 20px;
+        top: -70px;
         background: #fff;
         box-shadow: 0px 4px 7px rgba(0, 0, 0, 0.07);
         bottom: -100px;
@@ -379,7 +368,7 @@ font-size: 130%;
 .business-contents{
     grid-template-columns: 1fr;
     margin-left: 0%;
-    margin-top: 80px;
+    margin-top: 120px;
     height: auto;
     width: 95%;
     padding-left: 3%;
@@ -447,14 +436,13 @@ width: 30%;
     width: 100%;
     margin-left: 0%;
     height: 700px;
-    border: 1px solid black;
 }
 .health-title{
     position: absolute;
         width: 60%;
         height: 40px;
         left: 0%;
-        top: 20px;
+        top: -50px;
      background-color: #fff; 
      display: flex;
      align-items: center;
@@ -523,7 +511,7 @@ width: 30%;
     margin-top: 0px;
     margin-left: 2%;
 }
-.hc .health-content-text{
+.hct{
     font-weight: 700;
     margin-left: 0%;
     width: 90%;
@@ -544,14 +532,13 @@ width: 30%;
     height: auto;
     width: 100%;
     margin-left: 0%;
-    border: 1px solid black;
 }
 .editorials-title{
     position: absolute;
     width: 70%;
     height: 41.55px;
     left: 0%;
-    top: 0px;
+    top: -100px;
     background: #fff;
     box-shadow: 0px 4px 7px rgba(0, 0, 0, 0.07);
     bottom: 0px;
@@ -576,11 +563,10 @@ width: 30%;
 }
 .editorials-contents{
     grid-template-columns:1fr; 
-    margin-top: 50px; 
+    margin-top: 100px; 
     width: 95%;
     margin-left: 0px;
     padding-left: 2.5%;
-    border: 1px solid blue;
 }
 .editorials-content{
     top: 50px;
@@ -629,12 +615,10 @@ width: 30%;
     margin-top: 0px;
     width: 100%;
     margin-left: 0%;
-    border: 1px solid black;
 }
 .environment-container{
     width: 100%;
     height: 500px;
-    border: 1px solid red;
 }
 .environment-title{
     position: relative;
@@ -796,7 +780,6 @@ margin-left: 3%;
 .grid1{
     margin-left: 2%;
     width: 90%;
-    border: 1px solid red;
 }
 .grid1 p{
     width: 100%;
@@ -827,7 +810,6 @@ margin-left: 3%;
     margin-top: 20px;
     margin-left: 5%;
     width: 45%;
-    border: 1px solid blue;
 }
 .grid2 li{
     padding: 10px 0;
@@ -850,7 +832,6 @@ margin-left: 3%;
     margin-left: 50%;
     margin-top: -349px;
     width: 45%;
-    border: 1px solid blue;
 }
 .grid3 li{
     padding: 11px 0;
@@ -874,7 +855,6 @@ margin-left: 3%;
     width: 94%;
     margin-top: 30px;
     height: 350px;
-    border: 1px solid yellow;
 }
 .grid4 .grid-title{
     text-align: center;
