@@ -8,7 +8,7 @@
         background: #fdfcfc; 
         padding: 0%; 
         height: 5500px;
-        border: 1px solid black; 
+
     }
     
     nav{
@@ -91,7 +91,6 @@
 .topstories{
     width: 100%;
     margin-top: 50px;
-    border: 1px solid black;
 }
 .title{
     position: relative;
@@ -235,7 +234,6 @@ p.date{
     margin-left: 23%;
     width: 75%;
     margin-top: 0px;
-    border: 1px solid black;
 }
 
 .right-content{
@@ -253,7 +251,6 @@ p.date{
 }
 .right-title h3{
     width: 80%;
-    border: 1px solid red;
     font-size: 120%;
     line-height: 100%;
     color:#be4a3b;
@@ -277,7 +274,6 @@ p.date{
     width: 71%;
     margin-left: 0%;
     height: auto;
-    border: 1px solid black;
 }
 .politics-title{
     width: 35%;
@@ -351,7 +347,6 @@ p.date{
         margin-top: -535px;
         margin-left: 0%;
         height: 280px;
-        border: 1px solid black;
     }
     .sports-title{
         position: absolute;
@@ -426,7 +421,6 @@ p.date{
         width: 71%;
         height: auto;
         margin-left: 0%;
-        border: 1px solid black;
     }
     .business-contents{
         width: 100%;
@@ -558,7 +552,6 @@ p.date{
         margin-left: 2%;
         height: auto;
         width: 100%;
-        border: 1px solid red;
     }
     .health-content{
         display: flex;
@@ -718,7 +711,6 @@ p.date{
         margin-top: 80px;
         margin-right: 0%;
         width: 97%;
-        border: 1px solid green;
     }
     .aviation-content img{
         width: 55%;
@@ -797,7 +789,6 @@ p.date{
     .latest-news-contents{
         margin-top: -130px;
         margin-left: 0%;
-        border: 1px solid red;
         width: 100%;
         padding: 0;
     }
@@ -807,7 +798,6 @@ p.date{
         margin-top: 40px;
         margin-left: 0%;
         padding: 0%;
-        border: 1px solid blue;
     }
     .latest-news-content p{
         font-weight: 400;
@@ -824,7 +814,6 @@ p.date{
         width: 99%;
         height: 550px;
         margin-left: 0.5%;
-        border: 1px solid red;
     }
     .environment-container{
         height: 520px;
@@ -972,7 +961,6 @@ margin-top: 10px;
         width: 100%;
         margin-left: 0%;
         height: 1000px;
-        border: 1px solid red;
         margin-top: 50px;
         background: #000;
     }
@@ -995,7 +983,6 @@ margin-top: 10px;
         width: 100%;
         margin-left: 5%;
         padding: 0 2%;
-        border: 1px solid red;
     }
     .grid-title{
         width: 100%;
@@ -1014,7 +1001,6 @@ margin-top: 10px;
         margin-left: 0%;
         line-height: 100%;
         padding: 0%;
-        border: 1px solid blue;
     }
     .icons{
         margin-top: 50px;
@@ -1030,7 +1016,6 @@ margin-top: 10px;
         margin-left: 20%;
         margin-top: -15px;
         width: 90%;
-        border: 1px solid blue;
     }
     .icon img{
         width: 5%;
@@ -1043,7 +1028,6 @@ margin-top: 10px;
         width: 80%;
         font-size: 90%;
         padding: 0 5%;
-        border: 1px solid green;
     }
     
     ul li {
@@ -1071,7 +1055,6 @@ margin-top: 10px;
         margin-top: 0px;
         width: 85%;
         padding: 0 5%;
-        border: 1px solid blue;
     }
     .grid4{
         margin-left: -5%;
@@ -1079,7 +1062,6 @@ margin-top: 10px;
         margin-top: 0px;
         height: auto;
         padding: 0 2%;
-        border: 1px solid yellow;
     }
     input{
         width: 90%;
@@ -1112,7 +1094,6 @@ margin-top: 10px;
         width: 92%;
         margin-left: 0%;
         margin-top: 0px;
-        border: 1px solid purple;
     }
     .copyright{
         height: 30px;
@@ -1122,7 +1103,6 @@ margin-top: 10px;
         justify-content: center;
         width: 200%;
         margin-left: 5%;
-        border: 1px solid red;
     }
     .copyright p{
         width: 100%;
@@ -1136,7 +1116,6 @@ margin-top: 10px;
         display: flex;
         margin-top: -30px;
         width: 40%;
-        border: 1px solid green;
         display: flex;
         align-items: center;
         justify-content: center;
