@@ -840,7 +840,7 @@ margin-left: 3%;
 .grid2 li a{
     text-transform: uppercase;
     margin-left: 0%;
-    width: 100%;
+    width: 90%;
     text-decoration: none;
     color: #fff;
 }
@@ -873,7 +873,7 @@ margin-left: 3%;
 }
 .grid3 a{
     margin-left: 0px;
-    font-size: 100%;
+    font-size: 90%;
     text-decoration: none;
     color: #fff;
 }
