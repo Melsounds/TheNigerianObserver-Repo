@@ -2,9 +2,8 @@
 @media screen and (max-width: 600px){
     body{
         padding: 0; 
-        height: 7485px;
-        border: 1px solid black;
-        width: 99.6%;
+        height: 7792px;
+        width: 99.7%;
         margin: 0;
     }
     nav{
@@ -78,7 +77,7 @@
     
     .vec{
         display: block;
-        margin-left: 70px;
+        margin-left: 58px;
         margin-top: -12px;
     }
     .topstories{
@@ -309,7 +308,7 @@
 }
 /*Latest news mobile*/
 .latest-news{
-    margin-top: 50px;
+    margin-top: 0px;
     margin-left: 0%;
     background: #fdfcfc;
     width: 99.5%;
@@ -319,7 +318,7 @@
     color: #d924dd;
     font-weight: 700;
     line-height: 100%;
-    width: 50%;
+    width: 90%;
     font-size: 200%;
     margin-left: 0%;
 }
@@ -425,7 +424,7 @@ font-size: 130%;
 .breaking-news-bar-title h1{
     text-transform: uppercase;
     color: #fff;
-    font-size: 100%;
+    font-size: 80%;
     line-height: 28.91px;
 }
 .breaking-news-bar p{
@@ -433,7 +432,7 @@ font-size: 130%;
     height: auto;
     top: 2203px;
     font-weight: 400;
-    font-size: 100%;
+    font-size: 70%;
     line-height: 100%;
     word-spacing: 50%;
     padding: 0;
@@ -442,10 +441,8 @@ font-size: 130%;
 
 /*Health container*/
 #health{
-    display: grid;
-    grid-template-columns: 1fr;
     position: relative;
-    margin-top: 50px;
+    margin-top: 0px;
     width: 99.5%;
     margin-left: 0%;
     height: auto;
@@ -455,7 +452,7 @@ font-size: 130%;
     width: 70%;
     height: 41.55px;
     left: 0%;
-    top: 0px;
+    top: -80px;
     background: #fff;
     box-shadow: 0px 4px 7px rgba(0, 0, 0, 0.07);
 }
@@ -485,12 +482,17 @@ font-size: 130%;
     margin-top: 100px;
     margin-left: 0%;
 }
+.hc{
+    grid-row: 1;
+}
+
 .health-content{ 
     flex-direction: column; 
     margin-left: 1.5%;
     width: 97%;
     margin-top: 0px;
 }
+
 .health-content img{
     width: 70%;
     height: 154px;
@@ -508,29 +510,22 @@ font-size: 130%;
 }
 .health-btn{
     display: block;
-    margin-left: 80%;
+    margin-left: 75%;
     margin-top: 0px;
-    width: 18%;
+    width: 20%;
     height: 14px;
     font-size: 70%;
     color: #dc4b25;
     line-height: 100%;
     font-weight: 400;
     background: #d9d9d9;
-    padding: 0.5%;
+    padding: 1.5%;
     text-align: center;
+    text-decoration: none;
 }
 .r-2{
     display: none;
 }
-.hc{
-    grid-row: 1;
-    width: 90%;
-    margin-left: 0%;
-    margin-bottom: 0px;
-    margin-top: 0px;
-}
-
 .hc1{
     display: none;
 }
@@ -583,9 +578,9 @@ font-size: 130%;
 }
 .editorials-content{
     display: flex;
-    width:100%;
-    margin-top: 50px;
-    margin-left: 0%;
+    width:98%;
+    margin-top: 30px;
+    margin-left: 1%;
 }
 .editorials-content img{
     width: 40%;
@@ -601,7 +596,7 @@ font-size: 130%;
 }
 .editorial-btn{
     display: block;
-    margin-left: 75%;
+    margin-left: 70%;
     margin-top: 60px;
     height: 21px;
     font-size: 100%;
@@ -609,12 +604,13 @@ font-size: 130%;
     line-height: 100%;
     font-weight: 400;
     background: #ffe500;
-    padding: 0.5%;
+    padding: 0 2.5%;
     border-radius: 7px;
     display: flex;
     align-items: center;
     justify-content: center;
     text-decoration: none;
+    width: 25%;
 }
 
 #aviation{
@@ -780,8 +776,8 @@ margin-left: 3%;
 .footer{
     width: 100%;
     margin-left: 0%;
-    height: 1300px;
-    margin-top: 50px;
+    height: 1500px;
+    margin-top: 0px;
     background: #000;
 }
 .footer-img1{
@@ -792,15 +788,21 @@ margin-left: 3%;
 }
 .footer-nav{
     grid-template-columns: 1fr;
-    margin-top: -1250px;
+    margin-top: -1450px;
     width: 100%;
+    color: #fff;
 }
+.grid-title{
+    margin-left: 0;
+    text-decoration: underline;
+}
+
 .grid1{
     width: 98%;
     margin-left: 1%;
 }
 .grid1 img{
-    margin-left: 2%;
+ width: 70%;   
 }
 .grid1 p{
     width: 100%;
@@ -810,28 +812,37 @@ margin-left: 3%;
 .icons{
     margin-top: 0px;
 }
+.icon img{
+    width: 3%;
+    margin-top: 30px;
+    margin-left: 15%;
+}
 .icons p{
     font-size: 12px;
+    text-align: left;
     width: 70%;
+    margin-left: 25%;
+    margin-top: -20px;
 }
 
 .grid2{
     margin-top: 20px;
     margin-left: 2%;
     width: 45%;
-    padding-left: 2%;
-    text-align: center;
-    border: 1px solid red;
+    padding-left: 0%;
 }
 .grid2 li{
     padding: 10px 0;
+    width: 100%;
+    margin-left: 0%;
+    list-style: none;
 }
 .grid2 li a{
     text-transform: uppercase;
-    text-align: center;
     margin-left: 0%;
     width: 100%;
-    font-size: 80%;
+    text-decoration: none;
+    color: #fff;
 }
 
 .grid2 a:hover{
@@ -839,39 +850,40 @@ margin-left: 3%;
 }
 
 .grid2 .grid-title{
-    margin-left: 35%;
+    margin-left: 15%;
 }
 .grid3{
     margin-left: 50%;
-    margin-top: -300px;
+    margin-top: -320px;
     width: 48%;
     text-transform: uppercase;
     text-align: center;
-    border: 1px solid red;
 }
 .grid3 .grid-title{
-    margin-left: 35%;
+    margin-left: 0%;
     text-transform: none;
     margin-top: 5px;
 }
-.grid3 ul{
-    margin-left: 0%;
-}
+
 .grid3 li{
-    padding: 10px 0;
+    padding: 11px 0;
+    text-align: left;
+    list-style: none;
+    margin-left: 0;
 }
 .grid3 a{
     margin-left: 0px;
-    font-size: 80%;
+    font-size: 100%;
+    text-decoration: none;
+    color: #fff;
 }
 .grid3 a:hover{
     color: #dd4b24;
 }
 .grid4{
-    margin-left: 0%;
+    margin-left: 2%;
     width: 95%;
     margin-top: 30px;
-    border: 1px solid red;
 }
 .grid4 .grid-title p{
     margin-left: 0px;
@@ -904,7 +916,9 @@ input{
     margin-left: 0.5%;
 }
 .submit-btn{
-    width: 100%;
+    width: 97.5%;
+    background: #dc4b25;
+    cursor: pointer;
 }
 .copyright{
     margin-left: 0%;
@@ -913,15 +927,25 @@ input{
     text-align: center;
 }
 .footer-social-icons{
-    margin-left: 10%;
-    margin-top: 0px;
-    width: 85%;
+    margin-left: 17%;
+    margin-top: 20px;
+    width: 60%;
+    display: flex;
 }
 .footer-social-icon{
-    width: 40px;
-    height: 40px;
-    margin-left: 3%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 50px;
+    margin-left: 20px;
+    background:  #212121;
+    border-radius: 7px;
 }
+.footer-social-icon img{
+    width: 50%;
+   }
+   
 .grid5{
     display: none;
 }
