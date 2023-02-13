@@ -57,14 +57,12 @@ nav{
     font-style: normal;
     font-weight: 700;
     text-align: center;
-    border: 1px solid red;
 }
 .nav-list li{
     padding: 0; 
     height: 100%; 
     margin-left: 0%; 
     width: 100%;
-    border: 1px solid black;
 }
 
 .nav-list li a{
