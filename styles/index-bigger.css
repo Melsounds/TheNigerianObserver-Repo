@@ -26,13 +26,7 @@
         width: 100%;
     }
     .nav-icons{
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        width: 30%;
-        margin-left: 55%;
-        margin-right: 50px;
-        margin-top: -150px;
+    display: none;    
     }
     .menu-icon{
         display: block;
@@ -86,6 +80,9 @@
     .vec{
         display: none;
         margin-left: -20%;
+    }
+    #DropdownList{
+        display: none;
     }
     /*top stories container*/
 .topstories{
