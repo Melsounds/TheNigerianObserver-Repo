@@ -94,9 +94,6 @@ a::after{
 .vector{
     margin-left: 2%;
 }
-#DropdownList{
-    display: none;
-}
 /*top stories container*/
 .topstories{
     width: 99.8%;
