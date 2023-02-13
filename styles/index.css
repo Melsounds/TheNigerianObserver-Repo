@@ -68,7 +68,7 @@ nav{
 }
 
 .nav-list li a{
-    height: 15px;
+    /*height: 15px;*/
     text-decoration: none;
     color: #000;
     margin-left: 10%;
