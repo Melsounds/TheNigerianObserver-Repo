@@ -21,12 +21,51 @@
     .nav-icons{
         display: flex;
         margin-left: 0%;
-        width: 20%;
+        width: 30%;
         margin-left: 70%;
         margin-top: -60px;
+        cursor: pointer;
     }
     .search-icon{
-        width: 100%;
+        width: 10%;
+    }
+    
+    .menu-icon{
+        margin-left: 40%;
+    }
+    #DropdownList{
+        z-index: 1;
+        margin-top: -7%;
+        width:30%;
+        margin-left: 70%;
+        position: absolute;
+        overflow: hidden;
+        background-color: #d6d6d6;
+        height: 0;
+    }
+    #DropdownList.open-menu{
+        max-height: 600px;
+    }
+    #DropdownList li{
+        padding: 10px 5px;
+        list-style: none;
+        border: 2px solid #dd4a24;
+        width: 70%;
+        margin-left: 12.5%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-left: none;
+        border-right: none;
+        border-top: none;
+    }
+    #DropdownList .oc{
+        border-bottom: none;
+    }
+    #DropdownList a{
+        text-decoration: none;
+        color: #000;
+        font-size: 110%;
     }
     .remove{
         display: none;
@@ -37,9 +76,9 @@
         align-items: center;
         justify-content: center;
         background: #d6d6d6;
-        margin-top: 60px;
+        margin-top: 38px;
         padding: 2.5px 0;
-        width: 100%;
+        width: 100.3%;
         margin-left: 0%;
     }
     .nav-list li{
