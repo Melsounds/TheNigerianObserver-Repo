@@ -75,14 +75,12 @@
     .nav-list li a{
         font-size: 14px;
         text-decoration: none;
+        color: #000
     }
     
     .vec{
         display: none;
         margin-left: -20%;
-    }
-    #DropdownList{
-        display: none;
     }
     /*top stories container*/
 .topstories{
