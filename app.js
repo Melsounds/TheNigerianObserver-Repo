@@ -1,3 +1,12 @@
+let DropdownList = document.getElementById("DropdownList");
+  
+  /*DropdownList.style.maxHeight = "0px";*/
+
+        function droplist(){
+            DropdownList.classList.toggle("open-menu");
+        }
+
+
 document.addEventListener("DOMContentLoaded", function() {
     const lazyloadImageSet = document.querySelectorAll("img.lazy");    
     let lazyloadThrottleTimeout;
@@ -27,3 +36,5 @@ document.addEventListener("DOMContentLoaded", function() {
     window.addEventListener("resize", lazyloadImages);
     window.addEventListener("orientationChange", lazyloadImages);
   });
+  
+  
