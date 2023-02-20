@@ -140,10 +140,9 @@ a::after{
     width: 95%;
     top: 298px;
     margin-left: 2.5%;
-    border: 1px solid black;
 }
 .image-cont img{
-    width: 80%;
+    width: 100%;
 }
 .left-header-news-text{
 width: 95%;
