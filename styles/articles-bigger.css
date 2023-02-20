@@ -1,49 +1,51 @@
 @media screen and (min-width:768.5px) and (max-width:1250px){
     nav{
         width: 100%;
+        top: 0;
+        height: auto;
     }
     .logo{
         width: 30%;
-        margin-top: 50px;
+        margin-top: 0px;
         margin-bottom: 70px;
-        margin-left: 0%;
+        margin-left: -70%;
     }
     .logo img{
         margin-top: 0px;
-        width: 200px;
+        width: 100%;
     }
-    
+    .nav-icons{
+    display: none;    
+    }
     .menu-icon{
         display: block;
-        margin-left: 10%;
-        margin-right: 5%;
     }
     .menulogo{
         font-size: 500px;
     }
     .search-icon{
         display: block;
-        margin-left: -20%;
     }
-    nav ul{
-        margin-top: 190px;
+    .nav-list{
+        margin-top: 20px;
         margin-bottom: 50px;
-        margin-left: -35%;
+        margin-left: 0%;
         display: flex;
         align-items: center;
         justify-content: center;
         background: #d6d6d6;
-        padding: 0 2%;
-        height: 60px;
-        margin-right: 0%;
-        width: 103.7%;
+        padding: 20px 0;
+        height: auto;
+        margin-right: 1.6%;
+        width: 100%;
+        position: absolute;
     }
-    nav li{
+    .nav-list li{
         display: flex;
         align-items: center;
         justify-content: center;
-        padding: 0%;
-        border: 1px solid #dc4b25;
+        padding: 0px;
+        border: 2px solid #dc4b25;
         border-top: none;
         border-bottom: none;
         border-left: none;
@@ -52,30 +54,30 @@
         margin-right: 0%;
         margin-left: 0%;
     }
-    nav li .s{
+    .nav-list .active{
+        color:#ecff03;
         border-left: none;
     }
-    nav li a{
-        font-size: 80%;
-        padding: 0;
-    }
-
-    .a2{
-        border-right: none;
-        display: none;
-    }
-    .active{
-        display: none;
-    }
-    .oc{
-        border-right: none;
-    }
     
-    .remove2{
-        display: none;
+    .nav-list .oc{
+        border-right: none;
+        margin-left: 0;
+    }
+    .nav-list li a{
+        font-size: 75%;
+        text-decoration: none;
+        color: #000;
+        margin-left: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .nav-list .remove2 a{
+        margin-left: 0%;
     }
     .vec{
         display: none;
+
     }
     .home{
         width:10%;
@@ -89,9 +91,10 @@
     }
     
     .left-header-news span{
+        justify-content: space-between;
         margin-top: -20px;
         width: 60%;
-        margin-left: 0%;
+        margin-left: 3%;
     }
     
     .social-icons{
@@ -125,14 +128,14 @@
         letter-spacing: 4%;
         font-weight: 400;
         margin-bottom: -65px;
-        margin-top: 50px;
+        margin-top: 0px;
         margin-left: 0%;
     }
     .reply-container{
         width: 100%;
         background: #d6d6d6;
         border: 1px solid #acacac;
-        margin-top: 900px;
+        margin-top: 100px;
     }
     .reply-container span{
         width: 82%;
@@ -165,6 +168,7 @@
     .topstories-content-text span{
         font-size: 65%;
     }
+    
     .latest-news-content p{
         font-size: 80%;
     }
@@ -201,11 +205,31 @@
     }
     
     .environment-title{
-        width: 45%;
+        width: 80%;
+        margin-left: 0%;
+}
+
+.environment-img p{
+    font-size: 170%;
+}
+.environment-img span{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 70px;
+}
+.environment-img span p{
+    font-size: 85%;
+    margin-top: 0;
+    width: 100%;
 }
 .observercartoon-title{
-    width: 55%;
-    margin-left: -26%;
+    width: 80%;
+    margin-left: -51%;
+}
+.observercartoon-img span{
+    margin-top: 270px;
 }
 .footer{
     background: #000;
@@ -213,6 +237,7 @@
 .footer img{
     display: none;
 }
+
 .grid1 p{
     height: auto;
     font-size: 80%;
@@ -229,6 +254,7 @@ li{
 a{
     font-size: 80%;
 }
+
 .grid4 .text{
     margin-top: 30px;
 }
@@ -236,5 +262,22 @@ a{
     font-size: 120%;
 }
 
-    
+  .footer-social-icons{
+    margin-top: -30px;
+    width: 30%;
+  } 
+  .footer-social-icon{
+    width: 10%;
+    margin-left: 5%;
+  }
+  .copyright{
+    height: 30px;
+    width: 150%;
+    margin-top: 30px;
+  }
+  .copyright p{
+    font-size: 70%;
+    margin-top: 0;
+    width: 100%;
+  }
 }
