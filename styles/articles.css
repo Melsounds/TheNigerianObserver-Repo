@@ -6,6 +6,7 @@
 
 body{
     background: #d6d6d6;
+    width: 100%;
 }
 nav{
     display: flex;
@@ -27,25 +28,25 @@ nav{
     left: 17%;
     padding: 2%;
 }
-nav ul{
+.nav-list{
     display: flex;
     align-items: center;
     justify-content: center;
     list-style: none;
     width: 80%;
-    height: 15px;
+    height: auto;
     margin-left: 3%;
     top: 63px;
     font-style: normal;
     font-weight: 700;
 }
-nav li{
+.nav-list li{
     margin-right: 2%;
     padding: 0; 
     height: 100%; 
     width: 100%;
 }
-nav li a{
+.nav-list li a{
     width: 100%;
     height: 15px;
     font-size: 90%;
@@ -54,7 +55,7 @@ nav li a{
     margin-left: 10%;
     position: relative;
 }
- a:is(:link, :active, :visited).active{
+ .nav-list a:is(:link, :active, :visited).active{
     color:#ecff03;
 }
 a::after{
@@ -66,7 +67,7 @@ a::after{
     left: 0%;
     top: 100%;
 }
-nav li a:hover::after{
+.nav-list li a:hover::after{
     width: 100%;
 }
 .vector{
@@ -204,7 +205,7 @@ height: 100px;
 }
 .left-news-article{
     width: 100%;
-    height: 1000px;
+    height: auto;
     margin-top: 50px;
     margin-left: 0%;
 }
@@ -227,14 +228,14 @@ height: 100px;
     letter-spacing: 4%;
     font-weight: 400;
     margin-bottom: -65px;
-    margin-top: 50px;
+    margin-top: 0px;
     margin-left: 0%;
 }
 .reply-container{
     width: 100%;
     background: #d6d6d6;
     border: 1px solid #acacac;
-    margin-top: 900px;
+    margin-top: 50px;
 }
 .reply-container p{
     color: #ffe500;
@@ -584,6 +585,7 @@ height: auto;
 .environment-container{
     width: 100%;
     height: auto;
+    
 }
 .environment-img {
     margin-top: 50px;
@@ -620,6 +622,7 @@ height: auto;
 .observercartoon-container{
     width: 100%;
     margin-left: 0%;
+    
 }
 .observercartoon-title{
     position: relative;
@@ -823,22 +826,26 @@ input{
     line-height: 100%;
     width: 100%;
 }
+.copyright{
+    width: 100%;
+    margin-top: 80px;    
+}
 .copyright p{
-    width: 120%;
+    width: 100%;
     height: 17px;
     margin-left: 0%;
-    font-size: 100%;
-    margin-top: 80px;
+    font-size: 79%;
+    margin-top: 0px;
     font-family: 'lato';
 }
 .footer-social-icons{
     margin-left: 65%;
-    width: 100%;
+    width: 30%;
     display: flex;
     margin-top: -30px;
 }
 .footer-social-icon{
-   width: 3%;
+   width: 10%;
    height: 33.81px;
    border-radius: 4px;
    background: #212121;
