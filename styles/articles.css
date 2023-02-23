@@ -550,7 +550,7 @@ height: auto;
 .environment-observationcartoon{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    margin-top: 200px;
+    margin-top: 100px;
     width: 100%;
     margin-left: 0%;
 }
@@ -628,7 +628,7 @@ height: auto;
     position: relative;
     width: 30%;
     height: 50.21px;
-    left: 68.5%;
+    left: 64.8%;
     top: 0px;
     background: #fff;
     box-shadow: 0px 4px 7px rgba(0, 0, 0, 0.07);
@@ -687,7 +687,7 @@ margin-top: 10px;
 .footer{
     margin-left: 0%;
     right: 0;
-    margin-top: 130px;
+    margin-top: 50px;
     width: 100%;
     height: 670px;
     margin-right: 0px;
@@ -787,7 +787,7 @@ a{
 .grid4{
     z-index: 1;
     padding: 0 20px;
-    margin-left: 0%;
+    margin-left: -20%;
     width: 100%;
 }
 .grid4 .text{
@@ -825,6 +825,7 @@ input{
     font-size: 100%;
     line-height: 100%;
     width: 100%;
+    margin-left: -15%;
 }
 .copyright{
     width: 100%;
