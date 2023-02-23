@@ -45,39 +45,44 @@
         align-items: center;
         justify-content: center;
         position: absolute;
-        width: 100%;
+        width: 101%;
         background: #d6d6d6;
         margin-top: 96.5px;
-        padding: 0px;
-        margin-left: 0%;
-        margin-right: 3.7%;
+        padding: 10px 0;
+        margin-left: -4.4%;
+        margin-right: 0%;
         height: auto;
     }
     .nav-list li{
         border: 2px solid #dc4b25;
-        padding: 10px 0;
+        padding: 10px 0%;
         border-top: none;
         border-bottom: none;
         border-left: none;
         list-style: none;
         margin-right: 0;
-        height: 40px;
-        width: 15%;
+        height: 30px;
+        width: 20%;
         margin-left: 0;
     }
     .active{
         display: none;
     }
-    .nav-list .a2{
+    .nav-list .a2 {
         border-right: none;
         display: flex;
         align-items: center;
         justify-content: space-between;
+        margin-top: 0px;
     }
     .nav-list a{
         color: black;
         text-decoration: none;
-        margin-left: 0;
+        margin-left: 0%;
+        margin-top: -2px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
     .nav-list .s{
         border-left: none;
@@ -97,7 +102,7 @@
     
     .nav-list .vec{
         display: block;
-        margin-left: 30%;
+        margin-right: 30%;
         margin-top: 0px;
     }
     
