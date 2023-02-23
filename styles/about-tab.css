@@ -1,0 +1,122 @@
+@media screen and (min-width:601px) and (max-width:768px){
+    body{
+        padding: 0%;
+        margin-left: 0px;
+        width: 100%;
+    }
+    nav{
+        background: #fff;
+        width: 100%;
+        height: 180px;
+    }
+    
+    .logo{
+        width: 150%;
+        margin-top: 80px;
+        height: auto;
+        margin-bottom: 70px;
+        margin-left: 0%;
+    }
+    .logo img{
+        margin-top: 0px;
+        width: 100%;
+        height: auto;
+        margin-left: 0%;
+    }
+    .nav-icons{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 80%;
+        margin-left: 30%;
+        margin-right: 5%;
+        margin-top: -30px;
+    }
+    .menu-icon{
+        display: block;
+    }
+    .search-icon{
+        display: block;
+        margin-left: 0px;
+    }
+    .nav-list .remove2{
+        display: block;
+    }
+    .nav-list .vec{
+        display: block;
+        margin-left: 0%;
+        margin-top: 5px;
+    }
+    .nav-list{
+        margin-top: 65px;
+        margin-bottom: 50px;
+        margin-left: 0.1%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: #d6d6d6;
+        padding: 9px 0%;
+        height: auto;
+        margin-right: 0%;
+        width: 100%;
+        position: absolute;
+    }
+    .nav-list li{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 0%;
+        border: 2px solid #dc4b25;
+        border-top: none;
+        border-bottom: none;
+        border-left: none;
+        height: 30px;
+        width: 100%;
+        margin-right: 0%;
+        margin-top: 0px;
+    }
+    
+    .nav-list .a2{
+        border-right: none;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .nav-list .a2 a{
+        margin-left: -15%;
+    }
+    .nav-list li a{
+        font-size: 100%;
+        margin-left: 0%;
+        font-weight: 600;
+        width: 57px;
+        margin-right: 2%;
+    }
+    .nav-list .oc{
+        display: none;
+    }
+    .nav-list .e{
+        display: none;
+    }
+    
+    li.active{
+        display: none;
+    }
+    .nav-list .remove{
+        display: none;
+    }
+    .nav-list .remove2{
+        display: block;
+    }
+.nav-list .remove2 {
+    width: 100%;
+    padding: 0;
+    margin-top: 7px;
+    height: 30px;
+}
+.nav-list .remove2 a{
+    margin-top: 50px;
+    width: 100%;
+    font-size: 100%;
+}
+}
