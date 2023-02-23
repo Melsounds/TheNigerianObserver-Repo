@@ -145,7 +145,7 @@
 }
 .cat-img-text{
     width: 100%;
-    margin-top: -30px;
+    margin-top: 0px;
     margin-left: 0%;
 }
 .cat-img-text h1{
@@ -444,7 +444,7 @@ input{
     margin-top: 0;
 }
 .footer-social-icons{
-    margin-left: 10%;
+    margin-left: 5%;
     margin-top: 0px;
     width: 80%;
 }
