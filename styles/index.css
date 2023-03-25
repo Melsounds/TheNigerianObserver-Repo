@@ -98,6 +98,9 @@ a::after{
     margin-top: 0px;
 }
 .title{
+    display: flex;
+    align-items: center;
+    justify-content: center;
     position: relative;
         width: 15%;
         height: 50.21px;
@@ -250,6 +253,7 @@ p.date{
 .right-title{
     width: 40%;
     height: 23px;
+    margin-left: 3%;
 
 }
 .right-title h3{
@@ -349,7 +353,7 @@ p.date{
 .latest-news{
     display: grid;
     grid-template-columns: 1fr;
-    width: 23%;
+    width: 20%;
     height: 1000px;
     margin-top: -450px;
     margin-left: 76%;
@@ -760,7 +764,7 @@ p.date{
 }
 
 .opinions-container{
-    width: 23%;
+    width: 20%;
     height: 600px;
     display: grid;
     grid-template-columns: 1fr;
@@ -820,6 +824,9 @@ p.date{
     width: 100%;
 }
 .environment-title{
+    display: flex;
+    align-items: center;
+    justify-content: center;
     position: relative;
     width: 30%;
     height: 41.55px;
@@ -884,6 +891,9 @@ p.date{
 }
 
 .observercartoon-title{
+    display: flex;
+    align-items: center;
+    justify-content: center;
     position: relative;
     width: 35%;
     height: 41.55px;
