@@ -50,7 +50,7 @@
     }
     .nav-list li{
         border: 2px solid #dc4b25;
-        padding: 5px 5%;
+        padding: 5px 0%;
         border-top: none;
         border-bottom: none;
         border-left: none;
@@ -91,7 +91,7 @@
         padding: 0;
         width: 99%;
         margin-left: 0.25%;
-        margin-top: 50px;
+        margin-top: 0px;
         height: auto;
     }
     .title{
@@ -315,7 +315,7 @@
 }
 /*Latest news mobile*/
 .latest-news{
-    margin-top: 0px;
+    margin-top: -100px;
     margin-left: 0%;
     background: #fdfcfc;
     width: 99.5%;
@@ -414,12 +414,12 @@ font-size: 130%;
     align-items: center;
     width: 100%;
     height: 81px;
-    top: 2170px;
+    margin-top: -200px;
     margin-left: 0%;
     background: #ecff0d;
 }
 .breaking-news-bar-title{
-    width: 30%;
+    width: 40%;
     height: 81px;
     top: 2168px;
     margin-left: 0%;
@@ -432,7 +432,7 @@ font-size: 130%;
     text-transform: uppercase;
     color: #fff;
     font-size: 80%;
-    line-height: 28.91px;
+    line-height: 100%;
 }
 .breaking-news-bar p{
     width: 75%;
@@ -690,7 +690,7 @@ font-size: 130%;
 .environment-img .name{
     margin-top: 0px;
     height: 20px;
-    width: 100%;
+    width: 120%;
     font-size: 100%;
 }
 
@@ -702,7 +702,7 @@ font-size: 130%;
 }
 /*Observercartoon*/
 .observercartoon-container{
-    margin-top: 50px;
+    margin-top: -100px;
     height: auto;
     width: 96%;
     padding: 0 2%;
@@ -763,7 +763,7 @@ margin-left: 3%;
 .observercartoon-img .name{
     margin-top: -100px;
     height: 20px;
-    width: 100%;
+    width: 120%;
     font-size: 100%;
     color: white;
 }
@@ -801,6 +801,7 @@ margin-left: 3%;
 }
 .grid-title{
     margin-left: 0;
+    font-size: 150%;
     text-decoration: underline;
 }
 
@@ -831,62 +832,76 @@ margin-left: 3%;
     margin-left: 25%;
     margin-top: -20px;
 }
-
 .grid2{
-    margin-top: 20px;
-    margin-left: 2%;
-    width: 45%;
-    padding-left: 0%;
+    margin-top: 50px;
+    height: auto;
+    padding: 0%;
+    margin-left: 1%;
+    width: 50%;
+}
+.grid2 .grid-title{
+    margin-top: 50px;
+    width: 80%;
+    margin-left: 10%;
+    text-align: left;
+}
+.grid2 .grid-title p{
+    margin-top: 0%;
+    font-size: 100%;
+}
+.grid2 ul{
+    margin-left: 0;
 }
 .grid2 li{
-    padding: 10px 0;
+    padding: 5% 5%;
     width: 100%;
-    margin-left: 0%;
-    list-style: none;
+    margin-left: -15%;
+ list-style: none;
 }
 .grid2 li a{
     text-transform: uppercase;
-    margin-left: 0%;
-    width: 90%;
+    text-align: center;
+    margin-left: 3%;
+    width: 122%;
+    font-size: 82%;
+    font-weight: bold;
     text-decoration: none;
-    color: #fff;
+    color: #fff
 }
 
 .grid2 a:hover{
     color: #dd4b24;
 }
-
-.grid2 .grid-title{
-    margin-left: 15%;
-}
 .grid3{
-    margin-left: 50%;
-    margin-top: -320px;
+    margin-left: 51%;
+    margin-top: -390px;
+    padding: 0;
+    height: auto;
+    text-align: right;
     width: 48%;
-    text-transform: uppercase;
-    text-align: center;
 }
 .grid3 .grid-title{
-    margin-left: 0%;
-    text-transform: none;
-    margin-top: 5px;
+    margin-right: 10%;
+    margin-top: 50px;
 }
-
 .grid3 li{
-    padding: 11px 0;
-    text-align: left;
+    padding:  5% 5%;
+    margin-left: -15%;
     list-style: none;
-    margin-left: 0;
+    width: 100%;
 }
 .grid3 a{
-    margin-left: 0px;
-    font-size: 90%;
     text-decoration: none;
     color: #fff;
+    margin-left: 0%;
+    font-size: 82%;
+    font-weight: bold;
+    text-transform: uppercase;
 }
 .grid3 a:hover{
     color: #dd4b24;
 }
+
 .grid4{
     margin-left: 2%;
     width: 95%;
@@ -923,7 +938,7 @@ input{
     margin-left: 0.5%;
 }
 .submit-btn{
-    width: 97.5%;
+    width: 100%;
     background: #dc4b25;
     cursor: pointer;
 }
@@ -934,18 +949,18 @@ input{
     text-align: center;
 }
 .footer-social-icons{
-    margin-left: 17%;
+    margin-left: 7%;
     margin-top: 20px;
-    width: 60%;
+    width: 80%;
     display: flex;
 }
 .footer-social-icon{
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 100%;
+    width: 50%;
     height: 50px;
-    margin-left: 20px;
+    margin-left: 10px;
     background:  #212121;
     border-radius: 7px;
 }
