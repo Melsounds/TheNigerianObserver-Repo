@@ -1,6 +1,5 @@
-@media screen and (min-width:600px) and (max-width:768px){
+@media screen and (min-width:600px) and (max-width:900px){
 body{
-    
     height: 6115px;
     width: 100%;
     overflow-x: hidden;
@@ -41,25 +40,25 @@ body{
     }
     .nav-list {
         background: #d6d6d6;
-        margin-top: 91.59px;
+        margin-top: 93.6px;
         margin-bottom: 0;
         height: auto;
-        padding: 10px 0%;
-        width: 100.6%;
-        margin-left: -2.7%;
-        margin-right: 0.6%;
+        padding: 9px 1%;
+        width: 100.7%;
+        margin-left: 0%;
+        margin-right: 3%;
         position: absolute;
     }
 
 .nav-list li{
     border: 2px solid #dc4b25;
-    padding: 5px 0%;
+    padding: 5px 1%;
     border-top: none;
     border-bottom: none;
     border-left: none;
     margin-left: 0%;
     margin-right: 0%;
-    width: 12%;
+    width: 100%;
     list-style: none;
 }
 .nav-list .s{
@@ -289,7 +288,7 @@ margin-left: 15%;
     margin-top: 10%;
 }
 .grid1 img{
-    margin-left: 0%;
+    margin-left: 3%;
     width: 50%;
 }
 .grid1 p{
@@ -311,20 +310,26 @@ margin-left: 15%;
     width: 100%;
     margin-left: 0%;
 }
-
+.link-wrapper{
+    width: 100%;
+}
 .grid2{
     margin-top: 5%;
-    width: 50%;
+    width: 90%;
     height: auto;
     padding: 0;
+    margin-left: 10%;
 }
 .grid2 .grid-title{
-    margin-top: 10%;
+    margin-top: 0px;
     margin-left: 10%;
 }
 .grid2 .grid-title p{
     margin-top: 0%;
     font-size: 100%;
+}
+.grid2 ul{
+    margin-top: 30px;
 }
 .grid2 li{
     padding: 5% 0%;
@@ -350,29 +355,34 @@ margin-left: 15%;
     text-decoration: underline;
 }
 .grid3{
-    margin-left: 53%;
-    margin-top: -400px;
+    margin-left: 0%;
+    width: 90%;
+    margin-top: 20px;
     padding: 0;
-    width: 46%;
-    height: auto;
+    height: 480px;
 }
 .grid3 .grid-title{
-    margin-left: 10%;
-    margin-top: 15%;
+    margin-left: 35%;
+    margin-top: 0px;
 }
 .grid3 .grid-title p{
     font-size: 90%;
 }
-.grid3 li{
-    padding:0%;
-    margin-left: -7%;  
-    margin-top: 30px;  
-}
 .grid3 ul{
-    margin-top: 10px;
+    margin-top: 30px;
+    margin-left: 0%;
+    width: 100%;
+    height: 415px;
+}
+
+.grid3 li{
+    padding: 4.5% 0%;
+    margin-left: 0%;
+    width: 100%;
+    margin-top: 0px;  
 }
 .grid3 a{
-    margin-left: 15%;
+    margin-left: 35%;
     font-size: 13px;
     font-weight: bold;
     text-transform: uppercase;
@@ -386,6 +396,7 @@ margin-left: 15%;
     margin-top: 30px;
     height: auto;
 }
+
 .grid4 .grid-title p{
     margin-left: 0%;
     text-align: center;
