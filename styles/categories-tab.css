@@ -1,4 +1,4 @@
-@media screen and (min-width:601px) and (max-width:768px){
+@media screen and (min-width:600.1px) and (max-width:900px){
         body{
             padding: 0%;
             margin-left: 0px;
@@ -290,7 +290,7 @@
 }
 #environment-observationcartoon{
     grid-template-columns: 1fr;
-    margin-top: -2800px;
+    margin-top: -2700px;
     width: 98%;
     margin-left: 1%;
     height: auto;
@@ -334,7 +334,7 @@ font-size: 20px;
     font-weight: 700;
 }
 .environment-img span{
-margin-top: 45%;
+margin-top: 300px;
 }
 .observercartoon-container{
     width: 100%;
@@ -392,7 +392,7 @@ margin-top: 10px;
     height: 14px;
     font-family: 'Lato';
     font-weight: 400;
-    font-size: 12px;
+    font-size: 100%;
     line-height: 14.4px;
     margin-top: -220px;
 }
@@ -402,8 +402,8 @@ margin-top: 10px;
 .footer{
     width: 100%;
     margin-left: 0%;
-    height: 1530px;
-    margin-top: 1260px;
+    height: 1660px;
+    margin-top: 1360px;
     background: #000;
     padding: 0%;
 }
@@ -447,26 +447,32 @@ margin-top: 10px;
     width: 70%;
     margin-top: -2%;
 }
-
+.link-wrapper{
+    width: 100%;
+}
 .grid2{
     margin-top: 5%;
-    width: 50%;
     height: auto;
     padding: 0;
-    margin-left: 3%;
+    margin-left: 20%;
 }
 .grid2 .grid-title{
-    margin-top: 10%;
-    margin-left: 15%;
+    margin-top: 0;
+    margin-left: 0%;
 }
 .grid2 .grid-title p{
     margin-top: 0%;
     font-size: 100%;
 }
+.grid2 ul{
+    margin: 0;
+    width: 100%;
+    padding: 0;
+}
 .grid2 li{
     padding: 5% 0%;
     width: 100%;
-    margin-left: 20%;
+    margin-left: 0%;
 }
 .grid2 li a{
     text-transform: uppercase;
@@ -487,40 +493,59 @@ margin-top: 10px;
     text-decoration: underline;
 }
 .grid3{
-    margin-left: 53%;
-    margin-top: -480px;
-    padding: 0;
-    width: 46%;
+    margin-top: 20px;
     height: auto;
+    padding: 0;
+    margin-left: -20%;
+    text-align: right;
 }
 .grid3 .grid-title{
-    margin-left: 10%;
-    margin-top: -5.5%;
+    margin-top: 0%;
+    margin-left: 0%;
+}
+.grid3 .grid-title p{
+    margin-top: 0%;
+    font-size: 100%;
+}
+.grid3 ul{
+    margin: 0;
+    width: 100%;
+    padding: 0;
 }
 .grid3 li{
-    padding:  5% 0%;
+    padding: 5% 0%;
+    width: 100%;
     margin-left: 0%;
-    
 }
-.grid3 a{
-    margin-left: 15%;
-    font-size: 80%;
-    font-weight: bold;
+.grid3 li a{
     text-transform: uppercase;
+    text-align: center;
+    margin-left: 3%;
+    width: 100%;
+    font-size: 13px;
+    font-weight: bold;
 }
+
 .grid3 a:hover{
     color: #dd4b24;
 }
+
+
 .grid4{
     margin-left: 8%;
     width: 70%;
     margin-top: 30px;
     height: auto;
 }
+.grid4 .grid-title{
+    text-align: center;
+    margin-left: 0%;
+}
 .grid4 .grid-title p{
-    margin-left: 70%;
-    width: 114%;
-    font-size: 16.7px;
+    margin-left: 0%;
+    margin-top: 0;
+    width: 100%;
+    font-size: 100%;
     word-spacing: 10px;
 }
 .grid4 .text{
@@ -549,7 +574,7 @@ input{
 .copyright{
     margin-left: 25%;
     width: 50%;
-    margin-top: -100px;
+    margin-top: -250px;
     text-align: center;
   height: auto;
 }
@@ -559,7 +584,7 @@ input{
 }
 .footer-social-icons{
     margin-left: 25%;
-    margin-top: -10px;
+    margin-top: 0px;
     width: 50%;
 }
 .footer-social-icon{
