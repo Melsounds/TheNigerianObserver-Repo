@@ -89,7 +89,7 @@
         display: block;
     }
     nav li a{
-        font-size: 98%;
+        font-size: 100%;
         margin-left: 4%;
     }
     .active{
@@ -115,10 +115,12 @@
 }
 .politics-title{
     position: absolute;
-    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 70%;
     height: 48.68px;
     margin-left: 0%; 
-    margin-top: -3.5%;
 }
 .politics-title::after{
     content: '';
@@ -127,13 +129,13 @@
 }
 .politics-title h1{
     color: #dc4b25;
-    font-size: 14px;
-    margin-top: -5px;
+    font-size: 150%;
+    margin-top: 0;
 }
 .cat-img-cont{
     width: 100%;
     height: auto;
-    margin-top: 80px;
+    margin-top: 100px;
     margin-bottom: 5%;
     margin-left: 0%;
 }
@@ -331,18 +333,22 @@
     width: 70%;
     margin-top: -20px;
 }
+.link-wrapper{
+    width: 100%;
+}
 
 .grid2{
     margin-top: 50px;
-    width: 45%;
     height: auto;
-    padding: 0;
-    margin-left: 5%;
+    padding-left: 2%;
+    margin-left: 0%;
+    width: 97%;
 }
 .grid2 .grid-title{
     margin-top: 50px;
+    width: 80%;
     margin-left: 0;
-    text-align: center;
+    text-align: left;
 }
 .grid2 .grid-title p{
     margin-top: 0%;
@@ -370,19 +376,18 @@
 }
 
 .grid-title{
-    margin-left:30%;
     font-size: 150%;
     text-decoration: underline;
 }
 .grid3{
-    margin-left: 50%;
-    margin-top: -390px;
+    margin-left: 0%;
+    margin-top: 75px;
     padding: 0;
-    width: 50%;
-    height: 370px;
+    height: auto;
+    text-align: right;
 }
 .grid3 .grid-title{
-    margin-left: 10%;
+    margin-left: 0%;
     margin-top: 0px;
 }
 .grid3 li{
@@ -400,15 +405,19 @@
 }
 .grid4{
     margin-left: 0%;
-    width: 90%;
+    width: 100%;
     margin-top: 30px;
     height: auto; 
+    padding: 0;
+}
+.grid4 .grid-title{
+    margin-left: 0px;
+    width: 100%;
+    text-align: center;
+    word-spacing: 10px;
 }
 .grid4 .grid-title p{
-    margin-left: 50px;
-    width: 100%;
-    font-size: 16.7px;
-    word-spacing: 10px;
+    margin-top: 0;
 }
 .grid4 .text{
     font-size: 13px;
@@ -421,16 +430,16 @@
     text-align: center;
 }
 input{
-    width: 95%;
+    width: 90%;
     padding: 20px;
     margin-top:20px;
     color: #fff;
     background: transparent;
     outline: none;
-    margin-left: 0%;
+    margin-left: 1%;
 }
 .submit-btn{
-    width: 103%;
+    width: 97%;
     margin-bottom: 5%;
 }
 .copyright{
