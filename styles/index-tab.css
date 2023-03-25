@@ -1,8 +1,9 @@
-@media screen and (min-width:600px) and (max-width:768px){
+@media screen and (min-width:600px) and (max-width:900px){
     body{
         padding: 0;
         margin-left: 0%;
         width: 99.7%;
+        overflow-x: hidden;
     }
     nav{
         width: 100%;
@@ -78,7 +79,7 @@
     display: block;
     height: 12px;
     margin-top: 3px;
-    margin-left: -22%;
+    margin-left: 0px;
 }
 .remove2{
     display: none;
@@ -355,7 +356,7 @@ font-size: 110%;
     z-index: -1;
     position: absolute;
     left: 3%;
-    top: 20%;
+    top: 18%;
 }
 .business-title h1{
     color: #dc4b25;
@@ -467,7 +468,6 @@ width: 30%;
     height: 680px;
     width: 99.5%;
     margin-left: 0%;
-    margin-top: 75px;
 }
 .health-content{  
     width: 90%;
@@ -478,7 +478,7 @@ width: 30%;
     width: 90%;
     height: 254px;
     margin-left: 0%; 
-    margin-top: 20px; 
+    margin-top: 50px; 
     object-fit: cover; 
 }
 .health-content-text{
@@ -491,7 +491,9 @@ width: 30%;
     margin-top: 10px;
 }
 .health-btn{
-    display: block;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     margin-left: 75%;
     margin-top: 30px;
     width: 14%;
@@ -622,7 +624,10 @@ width: 30%;
 }
 .environment-title{
     position: relative;
-    width: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
     height: 41.55px;
     left: 0.1%;
     top: 0px;
@@ -681,15 +686,15 @@ width: 30%;
 }
 /*Observercartoon*/
 .observercartoon-container{
-    margin-top: 20px;
+    margin-top: 50px;
     width: 99.5%;
     padding: 0;
 }
 .observercartoon-title{
     position: relative;
-    width: 70%;
+    width: 50%;
     height: 41.55px;
-    left: 26.5%;
+    left: 48%;
     top: 0px;
     background: #fff;
     box-shadow: 0px 4px 7px rgba(0, 0, 0, 0.07);
@@ -809,9 +814,14 @@ margin-left: 3%;
     margin-left: 40%;
 }
 .grid2{
-    margin-top: 20px;
+    margin-top: 50px;
     margin-left: 5%;
     width: 45%;
+}
+.grid2 .grid-title{
+    margin-left: 0;
+    width: 50%;
+    text-align: center;
 }
 .grid2 li{
     padding: 10px 0;
@@ -831,9 +841,14 @@ margin-left: 3%;
     color: #dd4b24;
 }
 .grid3{
-    margin-left: 50%;
-    margin-top: -340px;
+    margin-left: 60%;
+    margin-top: -320px;
     width: 45%;
+}
+.grid3 .grid-title{
+    width: 50%;
+    text-align: center;
+    margin-left: 0;
 }
 .grid3 li{
     padding: 11px 0;
