@@ -97,7 +97,8 @@
         top: 100%;
     }
     .nav-list li a:hover::after{
-        width: 100%;
+        width: 50%;
+        margin-left: 25%;
     }
     
     .nav-list .vec{
@@ -340,12 +341,12 @@ font-size: 150%;
     line-height: 100%;
     font-weight: 700;
     padding: 0 2%;
-    margin-top: -100px;
+    margin-top: -200px;
     grid-template-columns: 1fr;
 }
 .environment-img span{
     display: flex;
-    margin-top: 250px;
+    margin-top: 350px;
 }
 .environment-img span p{
     width: 100%;
@@ -358,7 +359,7 @@ font-size: 150%;
 }
 
 .observercartoon-container{
-    margin-top: 50px;
+    margin-top: 0px;
     width: 100%;
 }
 .observercartoon-title{
@@ -392,11 +393,11 @@ font-size: 150%;
     line-height: 100%;
     font-weight: 700;
     padding: 0 2%;
-    margin-top: -100px;
+    margin-top: -200px;
 }
 .observercartoon-img span{
     display: flex;
-    margin-top: 250px;
+    margin-top: 350px;
 }
 .observercartoon-img span p{
     width: 100%;
@@ -473,13 +474,14 @@ font-size: 150%;
     height: 30px;
     margin-left: 0%;
 }
-
+.link-wrapper{
+    width: 100%;
+}
 .grid2{
-    margin-top: 10%;
-    width: 45%;
+    margin-top: 0px;
     height: auto;
     padding: 0;
-    margin-left: 3%;
+    margin-left: 0%;
 }
 .grid2 .grid-title{
     margin-top: 10%;
@@ -499,7 +501,7 @@ font-size: 150%;
     text-align: center;
     margin-left: 3%;
     width: 100%;
-    font-size: 13px;
+    font-size: 75%;
     font-weight: bold;
 }
 
@@ -513,15 +515,16 @@ font-size: 150%;
     text-decoration: underline;
 }
 .grid3{
-    margin-left: 50%;
-    margin-top: -61.5%;
+    margin-left: 0%;
+    margin-top: 0px;
+    margin-right: 2.5%;
     padding: 0;
-    width: 50%;
     height: auto;
+    text-align: right;
 }
 .grid3 .grid-title{
     margin-top: 10%;
-    margin-left: 10%;
+    margin-left: 0%;
 }
 .grid3 .grid-title p{
     margin-top: 0%;
@@ -529,6 +532,7 @@ font-size: 150%;
 }
 .grid3 ul{
     padding: 0;
+    margin-right: 5.5%;
 }
 .grid3 li{
     padding: 5% 0%;
@@ -540,7 +544,7 @@ font-size: 150%;
     text-align: center;
     margin-left: 3%;
     width: 100%;
-    font-size: 80%;
+    font-size: 75%;
     font-weight: bold;
 }
 
@@ -553,6 +557,7 @@ font-size: 150%;
     width: 100%;
     margin-top: 30px;
     height: auto;
+   
 }
 .grid4 .grid-title p{
     margin-left: 0%;
